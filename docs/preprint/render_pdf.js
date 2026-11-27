@@ -1,0 +1,3 @@
+const {chromium}=require('playwright');
+(async()=>{const b=await chromium.launch();const p=await b.newPage();
+await p.goto('file://'+process.argv[2]);await p.pdf({path:process.argv[3],format:'A4',printBackground:true,margin:{top:'16mm',bottom:'18mm',left:'15mm',right:'15mm'},displayHeaderFooter:true,headerTemplate:'<span></span>',footerTemplate:'<div style="font-size:7px;color:#777;width:100%;padding:0 15mm;display:flex;justify-content:space-between;font-family:DejaVu Sans,Arial"><span>KEYUR SHAILESHKUMAR PATEL · ORCID 0009-0008-5261-043X · Wake-up Engine preprint (2026-11-27)</span><span><span class="pageNumber"></span>/<span class="totalPages"></span></span></div>'});await b.close();})();
