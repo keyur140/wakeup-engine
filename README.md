@@ -8,8 +8,8 @@ ORCID: https://orcid.org/0009-0008-5261-043X
 (2) Independent researcher
 *Conducted independently; not an official Brunel University London project.*
 
-![status](https://img.shields.io/badge/status-frozen%2C%20awaiting%20OSF%20registration-orange)
-![preregistered](https://img.shields.io/badge/OSF-preregistration%20draft-blue)
+![status](https://img.shields.io/badge/status-registered%2C%20confirmatory%20run%20next-blue)
+[![OSF](https://img.shields.io/badge/OSF-10.17605%2FOSF.IO%2FH948R-blue)](https://doi.org/10.17605/OSF.IO/H948R)
 ![cost](https://img.shields.io/badge/cost-%240-brightgreen)
 ![tests](https://img.shields.io/badge/tests-22%20passed-brightgreen)
 ![self-checks](https://img.shields.io/badge/self--checks-11%2F11-brightgreen)
@@ -157,10 +157,10 @@ different families as the provider offers (v0.2 uses two families for three judg
 
 ## Preregistration (OSF)
 
-**Status (2026-11-27): frozen, not yet registered.** Freeze 2026-11-27T15:13:50Z, bundle SHA-256
-`508bdc28f784e952aabe07a1e628b24bfa6c2f4695e94a103f6e7761313b9a18` (28 files, see `prereg/FREEZE_MANIFEST.json`).
-One confirmatory item (W1993374508) was partly touched by an accidental `confirm` start before registration and is
-excluded (ISSUES I21, DECISIONS D20, DEVIATIONS A1). Do not run `confirm` until the OSF registration is live.
+**Status: registered on OSF on 2026-11-27** - https://osf.io/h948r/ (DOI [10.17605/OSF.IO/H948R](https://doi.org/10.17605/OSF.IO/H948R)).
+Freeze 2026-11-27T15:13:50Z, bundle SHA-256 `508bdc28f784e952aabe07a1e628b24bfa6c2f4695e94a103f6e7761313b9a18` (28 files).
+One confirmatory item (W1993374508) was excluded before registration (ISSUES I21, DECISIONS D20). Two supporting
+files were archived empty on OSF (ISSUES I22); corrected copies are in `prereg/`. Details: `OSF_REGISTRATION.md`.
 
 1. Read and edit `prereg/OSF_preregistration.md` and `config/forward_problems_antibiotic_resistance.yaml`. Every
    choice in them is yours to confirm (record of choices: `DECISIONS.md`).
@@ -261,7 +261,7 @@ Affiliations: (1) MSc Artificial Intelligence student, Department of Computer
 Science, Brunel University London, UK; (2) Independent researcher.
 Conducted independently; not an official Brunel University London project.
 
-OSF preregistration: <add your OSF link after registering>
+OSF preregistration: https://doi.org/10.17605/OSF.IO/H948R
 
 Machine-readable citation: `CITATION.cff`.
 
