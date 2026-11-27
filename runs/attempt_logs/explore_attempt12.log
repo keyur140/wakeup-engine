@@ -1,0 +1,91 @@
+2026-11-06T10:42:01 | INFO | Run 20261106T104159Z_explore_5317fd started (command=explore, mock=False)
+2026-11-06T10:42:01 | INFO | Author: KEYUR SHAILESHKUMAR PATEL (https://orcid.org/0009-0008-5261-043X)
+2026-11-06T10:42:01 | INFO | Preregistration check: NOT_FROZEN
+2026-11-06T10:42:02 | INFO | Sampling up to 6000 candidate old papers: {'publication_year': '1900-1985', 'cited_by_count': '>99', 'has_abstract': 'true', 'type': 'article'}
+2026-11-06T10:42:03 | INFO | Candidate pool: 6000 papers
+2026-11-06T10:42:04 | INFO |   citation histories: 250/6000
+2026-11-06T10:42:04 | INFO |   citation histories: 500/6000
+2026-11-06T10:42:04 | INFO |   citation histories: 750/6000
+2026-11-06T10:42:04 | INFO |   citation histories: 1000/6000
+2026-11-06T10:42:04 | INFO |   citation histories: 1250/6000
+2026-11-06T10:42:04 | INFO |   citation histories: 1500/6000
+2026-11-06T10:42:04 | INFO |   citation histories: 1750/6000
+2026-11-06T10:42:04 | INFO |   citation histories: 2000/6000
+2026-11-06T10:42:04 | INFO |   citation histories: 2250/6000
+2026-11-06T10:42:04 | INFO |   citation histories: 2500/6000
+2026-11-06T10:42:04 | INFO |   citation histories: 2750/6000
+2026-11-06T10:42:04 | INFO |   citation histories: 3000/6000
+2026-11-06T10:42:04 | INFO |   citation histories: 3250/6000
+2026-11-06T10:42:04 | INFO |   citation histories: 3500/6000
+2026-11-06T10:42:04 | INFO |   citation histories: 3750/6000
+2026-11-06T10:42:04 | INFO |   citation histories: 4000/6000
+2026-11-06T10:42:04 | INFO |   citation histories: 4250/6000
+2026-11-06T10:42:04 | INFO |   citation histories: 4500/6000
+2026-11-06T10:42:04 | INFO |   citation histories: 4750/6000
+2026-11-06T10:42:04 | INFO |   citation histories: 5000/6000
+2026-11-06T10:42:04 | INFO |   citation histories: 5250/6000
+2026-11-06T10:42:05 | INFO |   citation histories: 5500/6000
+2026-11-06T10:42:05 | INFO |   citation histories: 5750/6000
+2026-11-06T10:42:05 | INFO | Eligible sleeping beauties: 660, selected: 100
+2026-11-06T10:42:05 | INFO | Split: 21 development, 79 confirmatory. This run processes the dev part only (21 items).
+2026-11-06T10:42:05 | INFO | [1/21] SB W4210785022 (1915, woke 2018, B=7570.5)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2736.88it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-11-06T10:43:40 | INFO |    ranks: {'random': 260, 'bm25': 701, 'dense': 35, 'hybrid': 96, 'engine': 96}
+2026-11-06T10:43:40 | INFO | [2/21] SB W2320303480 (1973, woke 2018, B=3617.3)
+2026-11-06T10:45:14 | INFO |    ranks: {'random': 779, 'bm25': 365, 'dense': 93, 'hybrid': 160, 'engine': 160}
+2026-11-06T10:45:14 | INFO | [3/21] SB W2300474821 (1963, woke 2004, B=3575.2)
+2026-11-06T10:46:56 | INFO |    ranks: {'random': 437, 'bm25': 61, 'dense': 3, 'hybrid': 14, 'engine': 3}
+2026-11-06T10:46:56 | INFO | [4/21] SB W1973137999 (1920, woke 2006, B=2901.0)
+2026-11-06T10:48:26 | INFO |    ranks: {'random': 538, 'bm25': 11, 'dense': 11, 'hybrid': 9, 'engine': 7}
+2026-11-06T10:48:26 | INFO | [5/21] SB W2097680980 (1923, woke 1998, B=2152.4)
+2026-11-06T10:49:54 | INFO |    ranks: {'random': 762, 'bm25': 534, 'dense': 936, 'hybrid': 822, 'engine': 822}
+2026-11-06T10:49:54 | INFO | [6/21] SB W1980516134 (1954, woke 2007, B=2007.7)
+2026-11-06T10:51:32 | INFO |    ranks: {'random': 786, 'bm25': 355, 'dense': 75, 'hybrid': 127, 'engine': 127}
+2026-11-06T10:51:32 | INFO | [7/21] SB W2163272368 (1951, woke 2000, B=1664.8)
+2026-11-06T10:53:18 | INFO |    ranks: {'random': 479, 'bm25': 1, 'dense': 3, 'hybrid': 1, 'engine': 1}
+2026-11-06T10:53:18 | INFO | [8/21] SB W1567077956 (1961, woke 2009, B=1190.6)
+2026-11-06T10:54:36 | INFO |    ranks: {'random': 73, 'bm25': 27, 'dense': 13, 'hybrid': 5, 'engine': 4}
+2026-11-06T10:54:36 | INFO | [9/21] SB W2071736781 (1979, woke 2011, B=1184.8)
+2026-11-06T10:56:07 | INFO |    ranks: {'random': 338, 'bm25': 30, 'dense': 25, 'hybrid': 8, 'engine': 12}
+2026-11-06T10:56:07 | INFO | [10/21] SB W1992622896 (1913, woke 2003, B=1050.8)
+2026-11-06T10:57:38 | INFO |    ranks: {'random': 574, 'bm25': 562, 'dense': 674, 'hybrid': 729, 'engine': 729}
+2026-11-06T10:57:38 | INFO | [11/21] SB W2012721313 (1929, woke 2016, B=920.3)
+2026-11-06T10:59:12 | INFO |    ranks: {'random': 913, 'bm25': 20, 'dense': 6, 'hybrid': 4, 'engine': 1}
+2026-11-06T10:59:12 | INFO | [12/21] SB W2143370091 (1934, woke 2008, B=849.1)
+2026-11-06T11:00:15 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 49s
+2026-11-06T11:01:07 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 355s
+2026-11-06T11:07:02 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 5s
+2026-11-06T11:07:10 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 279s
+2026-11-06T11:11:49 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 18s
+2026-11-06T11:12:10 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 223s
+2026-11-06T11:15:54 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 111s
+2026-11-06T11:17:45 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 39s
+2026-11-06T11:18:24 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 7s
+2026-11-06T11:18:34 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 185s
+2026-11-06T11:21:42 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 280s
+2026-11-06T11:26:25 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 264s
+2026-11-06T11:30:49 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 2s
+2026-11-06T11:30:54 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 340s
+2026-11-06T11:36:37 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 276s
+2026-11-06T11:41:13 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 145s
+2026-11-06T11:43:41 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 196s
+2026-11-06T11:46:59 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 283s
+2026-11-06T11:51:43 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 9s
+2026-11-06T11:51:55 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 295s
+2026-11-06T11:56:50 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 29s
+2026-11-06T11:57:22 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 322s
+2026-11-06T12:02:47 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 121s
+2026-11-06T12:04:48 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 33s
+2026-11-06T12:05:21 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 37s
+2026-11-06T12:06:01 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 220s
+2026-11-06T12:09:44 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 303s
+2026-11-06T12:14:47 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 144s
+2026-11-06T12:17:14 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 152s
+2026-11-06T12:19:49 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 338s
+2026-11-06T12:25:30 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 285s
+2026-11-06T12:30:15 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 143s
+2026-11-06T12:32:41 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 159s
+2026-11-06T12:35:20 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 30s
+2026-11-06T12:35:53 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 279s
+2026-11-06T12:40:35 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 272s

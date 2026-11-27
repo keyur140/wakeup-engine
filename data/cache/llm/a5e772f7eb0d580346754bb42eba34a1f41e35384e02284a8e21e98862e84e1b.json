@@ -1,0 +1,1 @@
+{"request_sha256": "a5e772f7eb0d580346754bb42eba34a1f41e35384e02284a8e21e98862e84e1b", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-07T23:40:38Z", "response": "{\n\"recognized\": true,\n\"title\": \"Inductive tissue interaction in the development of the mouse lens in vitro\",\n\"first_author\": \"Holtzer\",\n\"year\": 1962\n}"}

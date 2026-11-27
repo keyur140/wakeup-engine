@@ -1,0 +1,1 @@
+{"request_sha256": "c162ea74c1b8a2eb653574456029b118a3b3a311f13becd64117e5716cb465c3", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-06T19:03:16Z", "response": "{\n\"recognized\": true,\n\"title\": \"Relations in Fused Salt Media. II\",\n\"first_author\": \"Hicks\",\n\"year\": 1922\n}"}

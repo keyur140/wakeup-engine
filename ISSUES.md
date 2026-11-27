@@ -1,0 +1,29 @@
+# Known issues and open problems
+
+**KEYUR SHAILESHKUMAR PATEL** (ORCID https://orcid.org/0009-0008-5261-043X).
+
+Status: OPEN (not solved), MITIGATED (reduced, still present), FIXED.
+
+| # | Issue | Status | What was done |
+|---|---|---|---|
+| I1 | Hindsight leakage: today's models read text written after the awakenings | MITIGATED | Anonymization, recognition probe, disguised-text check, leak scan, H1b. It cannot be fully removed, so a positive back-test is an upper bound |
+| I2 | Word overlap alone can beat chance (found in synthetic world W4) | FIXED in design | H1b (beat plain search) made co-primary (D15) |
+| I3 | Only about 80 of 100 sleeping beauties are confirmatory; the analysis needs at least 50 usable | OPEN | Minimum detectable effect is printed in every report; below 50 usable the result is labelled underpowered. The exploratory run will show the real usable rate |
+| I4 | Free model endpoints may rename or retire models | MITIGATED | Model names logged per call, full cache, drift check. A replaced model is a deviation |
+| I5 | OpenAlex abstracts are sparse for old papers | OPEN | Reported as a limitation; exploratory run will show exclusion counts |
+| I6 | AI judges are not domain experts | OPEN by design | Gate + agreement measured; forward hits are leads, not discoveries |
+| I7 | The synthetic forward test has no planted answers | OPEN | Validation only checks that forward machinery runs and bad judges are removed |
+| I8 | In the mock world, the estimated awakening year can differ from the planted one | FIXED | Mock need-context papers spread over the years around waking (real OpenAlex has papers every year) |
+| I9 | The cloud session used to build the code could not reach OpenAlex or Groq | FIXED | Network access enabled in a new environment (D11); exploratory run runs there |
+| I10 | `run.log` was hashed before its last line was written | FIXED (v0.1) | Log handlers closed before hashing |
+| I11 | Groq retired Llama 3.3 70B, Qwen3-32B and Kimi K2 before the first real run | FIXED (pre-freeze) | Found by checking Groq's model list; author chose new models (D16) |
+| I12 | First real explore run (20261104T190409Z_explore_208f9e) could not download the local embedding model: the cloud network blocks Hugging Face's file hosts (cas-server.xethub.hf.co, us.aws.cdn.hf.co), so the code fell back to TF-IDF | FIXED | Run stopped after 1 of 21 items so no results rest on the fallback (kept for the record); author allowed the hosts on 2026-11-04 and the run was restarted with the real embedding model |
+| I13 | PyTorch's own download site is blocked in the cloud environment | FIXED | Installed torch from PyPI instead |
+| I14 | Under Groq's free 200,000 tokens/day limit, the run gave up after 8 retries and every restart spent ~2 h re-reading cached items | FIXED (no effect on results) | Optional WAKEUP_LLM_MAX_RETRIES environment variable (default unchanged at 8); the exploratory run used 1000 so it waits instead of restarting |
+| I15 | The cloud machine restarted about once an hour, and each restart spent ~30 min re-embedding texts for items already done, so the run could not get past item 18 | FIXED (no effect on results) | Optional WAKEUP_EMBED_CACHE=1 stores the exact embedding arrays on disk and reuses them (off by default) |
+| I16 | The Groq key expired twice during the exploratory run (401 expired_api_key, 2026-11-12) and the run waited until a new key was saved (2026-11-20) | FIXED (no effect on results) | All replies before the stop came from cache; check C1 confirms 2,583 replies match their stored SHA-256 (0 mismatches). Completed run: 20261120T194454Z_explore_23274f |
+| I17 | Recognition probe: the engine model "recognized" 14 of 21 development sleeping beauties (decoys 21%), and all 8 engine hits are among recognized items (0 of 7 hits without them) | OPEN (key finding) | Not only memory: plain hybrid search, which has no memory, shows the same split (7 of 14 hits recognized vs 1 of 7 not). Recognized papers are also the easier-to-match ones. Disguised-text check showed no drop (4.67 vs 4.44, p = 0.51). Author decision D18: preregistered secondary test S1 on unrecognized items |
+| I18 | H1b not supported on dev data: engine and hybrid search both hit 8 of 21 (1 discordant each way, p = 0.75) | OPEN (key finding) | The engine re-ranks only hybrid's top 50 (hybrid hit@50 = 52%), so it cannot rescue items search misses. MRR rises 0.197 -> 0.254 and hit@1 14% -> 19%. Reported honestly; author decision D19: keep top 50 |
+| I19 | Coarse scores: largest identical-answer share 88% (engine), 74-79% (gpt-oss judges); ALLaM judge had 12.7% unparseable replies (17 of 21 gate items usable) | MITIGATED | All below the preregistered 95% collapse rule and all passed the gate; reported in the gate table |
+| I20 | Judge agreement on novelty is low (alpha 0.217); applicability is moderate (alpha 0.559, above the 0.40 rule) | OPEN | Novelty stays secondary; applicability is the preregistered forward measure |
+| I21 | 2026-11-27, after the freeze and before OSF registration: running the test suite on the frozen package started `confirm` twice (test `test_confirm_refuses_without_freeze` ran the command before checking for a freeze). Each start was killed by the test's 120 s timeout while still on confirmatory item 1 of 79 (W1993374508): 1 need summary and re-rank scores for 29 decoy candidates were requested. The sleeping beauty itself was not scored, no rank, hit or summary was computed, and nobody looked at any reply | FIXED (disclosed) | Test now checks the freeze first and skips. Both partial runs are kept unchanged in `runs/_INCIDENT_2026-11-27_accidental_confirm/` as evidence. See DEVIATIONS.md, After the freeze |

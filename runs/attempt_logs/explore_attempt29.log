@@ -1,0 +1,43 @@
+2026-11-07T17:15:51 | INFO | Run 20261107T171550Z_explore_c1cd61 started (command=explore, mock=False)
+2026-11-07T17:15:51 | INFO | Author: KEYUR SHAILESHKUMAR PATEL (https://orcid.org/0009-0008-5261-043X)
+2026-11-07T17:15:51 | INFO | Preregistration check: NOT_FROZEN
+2026-11-07T17:15:54 | INFO | Sampling up to 6000 candidate old papers: {'publication_year': '1900-1985', 'cited_by_count': '>99', 'has_abstract': 'true', 'type': 'article'}
+2026-11-07T17:15:56 | INFO | Candidate pool: 6000 papers
+2026-11-07T17:15:56 | INFO |   citation histories: 250/6000
+2026-11-07T17:15:56 | INFO |   citation histories: 500/6000
+2026-11-07T17:15:56 | INFO |   citation histories: 750/6000
+2026-11-07T17:15:56 | INFO |   citation histories: 1000/6000
+2026-11-07T17:15:56 | INFO |   citation histories: 1250/6000
+2026-11-07T17:15:56 | INFO |   citation histories: 1500/6000
+2026-11-07T17:15:56 | INFO |   citation histories: 1750/6000
+2026-11-07T17:15:56 | INFO |   citation histories: 2000/6000
+2026-11-07T17:15:56 | INFO |   citation histories: 2250/6000
+2026-11-07T17:15:56 | INFO |   citation histories: 2500/6000
+2026-11-07T17:15:56 | INFO |   citation histories: 2750/6000
+2026-11-07T17:15:56 | INFO |   citation histories: 3000/6000
+2026-11-07T17:15:56 | INFO |   citation histories: 3250/6000
+2026-11-07T17:15:56 | INFO |   citation histories: 3500/6000
+2026-11-07T17:15:56 | INFO |   citation histories: 3750/6000
+2026-11-07T17:15:56 | INFO |   citation histories: 4000/6000
+2026-11-07T17:15:56 | INFO |   citation histories: 4250/6000
+2026-11-07T17:15:56 | INFO |   citation histories: 4500/6000
+2026-11-07T17:15:56 | INFO |   citation histories: 4750/6000
+2026-11-07T17:15:56 | INFO |   citation histories: 5000/6000
+2026-11-07T17:15:56 | INFO |   citation histories: 5250/6000
+2026-11-07T17:15:57 | INFO |   citation histories: 5500/6000
+2026-11-07T17:15:57 | INFO |   citation histories: 5750/6000
+2026-11-07T17:15:57 | INFO | Eligible sleeping beauties: 660, selected: 100
+2026-11-07T17:15:57 | INFO | Split: 21 development, 79 confirmatory. This run processes the dev part only (21 items).
+2026-11-07T17:15:57 | INFO | [1/21] SB W4210785022 (1915, woke 2018, B=7570.5)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:   3%|▎         | 5/199 [00:00<00:06, 29.23it/s]Loading weights:   4%|▍         | 8/199 [00:00<00:10, 17.96it/s]Loading weights:   8%|▊         | 15/199 [00:00<00:08, 21.73it/s]Loading weights:  10%|█         | 20/199 [00:00<00:06, 25.91it/s]Loading weights:  12%|█▏        | 24/199 [00:00<00:06, 28.80it/s]Loading weights:  18%|█▊        | 35/199 [00:01<00:03, 44.54it/s]Loading weights:  22%|██▏       | 43/199 [00:01<00:03, 44.62it/s]Loading weights:  24%|██▍       | 48/199 [00:01<00:03, 44.84it/s]Loading weights:  29%|██▉       | 58/199 [00:01<00:02, 53.24it/s]Loading weights:  32%|███▏      | 64/199 [00:01<00:03, 39.10it/s]Loading weights:  35%|███▍      | 69/199 [00:01<00:03, 40.22it/s]Loading weights:  39%|███▊      | 77/199 [00:01<00:02, 45.77it/s]Loading weights:  43%|████▎     | 86/199 [00:02<00:02, 54.59it/s]Loading weights:  50%|█████     | 100/199 [00:02<00:01, 66.38it/s]Loading weights:  54%|█████▍    | 107/199 [00:02<00:01, 48.90it/s]Loading weights:  57%|█████▋    | 113/199 [00:02<00:01, 49.78it/s]Loading weights:  60%|█████▉    | 119/199 [00:02<00:01, 48.66it/s]Loading weights:  63%|██████▎   | 125/199 [00:02<00:01, 44.78it/s]Loading weights:  65%|██████▌   | 130/199 [00:03<00:01, 44.97it/s]Loading weights:  68%|██████▊   | 135/199 [00:03<00:02, 28.38it/s]Loading weights:  72%|███████▏  | 143/199 [00:03<00:01, 36.22it/s]Loading weights:  74%|███████▍  | 148/199 [00:03<00:01, 37.29it/s]Loading weights:  77%|███████▋  | 154/199 [00:03<00:01, 38.37it/s]Loading weights: 100%|██████████| 199/199 [00:03<00:00, 52.40it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-11-07T17:17:50 | INFO |    ranks: {'random': 260, 'bm25': 701, 'dense': 35, 'hybrid': 96, 'engine': 96}
+2026-11-07T17:17:50 | INFO | [2/21] SB W2320303480 (1973, woke 2018, B=3617.3)
+2026-11-07T17:19:12 | INFO |    ranks: {'random': 779, 'bm25': 365, 'dense': 93, 'hybrid': 160, 'engine': 160}
+2026-11-07T17:19:12 | INFO | [3/21] SB W2300474821 (1963, woke 2004, B=3575.2)
+2026-11-07T17:20:42 | INFO |    ranks: {'random': 437, 'bm25': 61, 'dense': 3, 'hybrid': 14, 'engine': 3}
+2026-11-07T17:20:42 | INFO | [4/21] SB W1973137999 (1920, woke 2006, B=2901.0)
+2026-11-07T17:22:03 | INFO |    ranks: {'random': 538, 'bm25': 11, 'dense': 11, 'hybrid': 9, 'engine': 7}
+2026-11-07T17:22:03 | INFO | [5/21] SB W2097680980 (1923, woke 1998, B=2152.4)
+2026-11-07T17:23:22 | INFO |    ranks: {'random': 762, 'bm25': 534, 'dense': 936, 'hybrid': 822, 'engine': 822}
+2026-11-07T17:23:22 | INFO | [6/21] SB W1980516134 (1954, woke 2007, B=2007.7)

@@ -1,0 +1,68 @@
+2026-11-03T18:50:14 | INFO | Run 20261103T185013Z_selftest_MOCK_7207d4 started (command=selftest, mock=True)
+2026-11-03T18:50:14 | INFO | Author: KEYUR SHAILESHKUMAR PATEL (https://orcid.org/0009-0008-5261-043X)
+2026-11-03T18:50:14 | INFO | Preregistration check: NOT_FROZEN
+2026-11-03T18:50:14 | WARNING | MOCK MODE: synthetic data, results are NOT scientific findings.
+2026-11-03T18:50:15 | INFO | Sampling up to 2500 candidate old papers: {'publication_year': '1900-1985', 'cited_by_count': '>99', 'has_abstract': 'true', 'type': 'article'}
+2026-11-03T18:50:15 | INFO | Candidate pool: 810 papers
+2026-11-03T18:50:15 | INFO |   citation histories: 250/810
+2026-11-03T18:50:15 | INFO |   citation histories: 500/810
+2026-11-03T18:50:15 | INFO |   citation histories: 750/810
+2026-11-03T18:50:15 | INFO | Eligible sleeping beauties: 40, selected: 40
+2026-11-03T18:50:15 | INFO | Split: 21 development, 19 confirmatory. This run processes the dev part only (21 items).
+2026-11-03T18:50:15 | INFO | [1/21] SB W906244 (1929, woke 1977, B=1488.4)
+2026-11-03T18:50:16 | INFO |    ranks: {'random': 68, 'bm25': 1, 'dense': 1, 'hybrid': 1, 'engine': 4}
+2026-11-03T18:50:16 | INFO | [2/21] SB W902572 (1954, woke 2001, B=1390.9)
+2026-11-03T18:50:16 | INFO |    ranks: {'random': 55, 'bm25': 1, 'dense': 1, 'hybrid': 1, 'engine': 3}
+2026-11-03T18:50:16 | INFO | [3/21] SB W902878 (1959, woke 2005, B=1364.2)
+2026-11-03T18:50:16 | INFO |    ranks: {'random': 57, 'bm25': 1, 'dense': 1, 'hybrid': 1, 'engine': 8}
+2026-11-03T18:50:16 | INFO | [4/21] SB W902266 (1924, woke 1972, B=1293.4)
+2026-11-03T18:50:16 | INFO |    ranks: {'random': 76, 'bm25': 8, 'dense': 8, 'hybrid': 8, 'engine': 14}
+2026-11-03T18:50:16 | INFO | [5/21] SB W906703 (1921, woke 1964, B=1221.6)
+2026-11-03T18:50:16 | INFO |    ranks: {'random': 78, 'bm25': 1, 'dense': 1, 'hybrid': 1, 'engine': 1}
+2026-11-03T18:50:16 | INFO | [6/21] SB W905020 (1945, woke 1985, B=978.8)
+2026-11-03T18:50:16 | INFO |    ranks: {'random': 3, 'bm25': 1, 'dense': 1, 'hybrid': 1, 'engine': 20}
+2026-11-03T18:50:16 | INFO | [7/21] SB W907162 (1915, woke 1960, B=961.9)
+2026-11-03T18:50:16 | INFO |    ranks: {'random': 84, 'bm25': 3, 'dense': 3, 'hybrid': 3, 'engine': 11}
+2026-11-03T18:50:16 | INFO | [8/21] SB W907315 (1950, woke 1988, B=847.4)
+2026-11-03T18:50:16 | INFO |    ranks: {'random': 68, 'bm25': 1, 'dense': 1, 'hybrid': 1, 'engine': 2}
+2026-11-03T18:50:16 | INFO | [9/21] SB W903949 (1913, woke 1960, B=826.1)
+2026-11-03T18:50:16 | INFO |    ranks: {'random': 4, 'bm25': 7, 'dense': 7, 'hybrid': 7, 'engine': 7}
+2026-11-03T18:50:16 | INFO | [10/21] SB W901807 (1940, woke 1972, B=681.6)
+2026-11-03T18:50:16 | INFO |    ranks: {'random': 32, 'bm25': 3, 'dense': 3, 'hybrid': 3, 'engine': 4}
+2026-11-03T18:50:16 | INFO | [11/21] SB W907009 (1919, woke 1952, B=650.6)
+2026-11-03T18:50:16 | INFO |    ranks: {'random': 45, 'bm25': 5, 'dense': 5, 'hybrid': 5, 'engine': 10}
+2026-11-03T18:50:16 | INFO | [12/21] SB W907468 (1940, woke 1967, B=598.1)
+2026-11-03T18:50:16 | INFO |    ranks: {'random': 33, 'bm25': 1, 'dense': 1, 'hybrid': 1, 'engine': 3}
+2026-11-03T18:50:16 | INFO | [13/21] SB W903031 (1937, woke 1959, B=511.9)
+2026-11-03T18:50:16 | INFO |    ranks: {'random': 47, 'bm25': 1, 'dense': 1, 'hybrid': 1, 'engine': 1}
+2026-11-03T18:50:16 | INFO | [14/21] SB W902419 (1957, woke 1984, B=501.5)
+2026-11-03T18:50:16 | INFO |    ranks: {'random': 14, 'bm25': 1, 'dense': 1, 'hybrid': 1, 'engine': 14}
+2026-11-03T18:50:16 | INFO | [15/21] SB W904714 (1944, woke 1974, B=453.6)
+2026-11-03T18:50:16 | INFO |    ranks: {'random': 39, 'bm25': 1, 'dense': 1, 'hybrid': 1, 'engine': 7}
+2026-11-03T18:50:16 | INFO | [16/21] SB W904102 (1935, woke 1955, B=420.8)
+2026-11-03T18:50:16 | INFO |    ranks: {'random': 50, 'bm25': 18, 'dense': 18, 'hybrid': 18, 'engine': 19}
+2026-11-03T18:50:16 | INFO | [17/21] SB W905785 (1946, woke 1965, B=392.7)
+2026-11-03T18:50:16 | INFO |    ranks: {'random': 31, 'bm25': 1, 'dense': 1, 'hybrid': 1, 'engine': 4}
+2026-11-03T18:50:16 | INFO | [18/21] SB W904255 (1921, woke 1989, B=349.9)
+2026-11-03T18:50:16 | INFO |    excluded: no_awakener_topic
+2026-11-03T18:50:16 | INFO | [19/21] SB W901501 (1913, woke 1948, B=264.3)
+2026-11-03T18:50:16 | INFO |    excluded: no_awakener_topic
+2026-11-03T18:50:16 | INFO | [20/21] SB W903337 (1956, woke 1994, B=256.2)
+2026-11-03T18:50:16 | INFO |    excluded: no_awakener_topic
+2026-11-03T18:50:16 | INFO | [21/21] SB W905479 (1944, woke 1979, B=224.4)
+2026-11-03T18:50:16 | INFO |    excluded: no_awakener_topic
+2026-11-03T18:50:17 | INFO | Gate engine (engine): AUC 0.912, p 0.0010, n 17, identical share 0.04 -> passed
+2026-11-03T18:50:17 | INFO | Gate judge_qwen (judge): AUC 0.647, p 0.0040, n 17, identical share 0.82 -> passed
+2026-11-03T18:50:18 | INFO | Gate judge_gptoss (judge): AUC 0.618, p 0.0100, n 17, identical share 0.88 -> passed
+2026-11-03T18:50:18 | INFO | Gate judge_kimi (judge): AUC 0.700, p 0.0010, n 17, identical share 0.85 -> passed
+2026-11-03T18:50:18 | INFO | Forward test on 4 problems
+2026-11-03T18:50:19 | INFO | [1/4] DEV01: 79 retrieved, 40 forgotten, queries=['gastric spiral bacteria treatment', 'stomach bacteria bismuth', 'gastric infection non-antibiotic', 'adjunct antibiotic', 'cheap clarithromycin', 'clear eradication', 'fail infection', 'makes many']
+2026-11-03T18:50:20 | INFO | [2/4] DEV02: 60 retrieved, 34 forgotten, queries=['typhoid carrier treatment', 'enteric fever chronic carriage', 'gallbladder bacteria elimination', 'affordable carriage', 'drug extensively', 'few leaves', 'need options', 'oral prevent']
+2026-11-03T18:50:21 | INFO | [3/4] DEV03: 79 retrieved, 40 forgotten, queries=['mucoid Pseudomonas sputum', 'airway mucus bacteria penetration', 'alginate bacteria lung', 'aeruginosa airway', 'antibiotics becomes', 'chronic clear', 'cystic fibrosis', 'infection lung']
+2026-11-03T18:50:22 | INFO | [4/4] DEV04: 0 retrieved, 0 forgotten, queries=['livestock growth promotion without antibiotics', 'gut flora feed additive animals', 'competitive exclusion poultry', 'alternatives animal', 'antibiotic antibiotics', 'growth health', 'keep livestock', 'need practical']
+2026-11-03T18:50:22 | WARNING |    too few forgotten candidates; problem skipped
+2026-11-03T18:50:22 | INFO | Judge judge_qwen rating 45 items (blind, shuffled)
+2026-11-03T18:50:22 | INFO | Judge judge_gptoss rating 45 items (blind, shuffled)
+2026-11-03T18:50:22 | INFO | Judge judge_kimi rating 45 items (blind, shuffled)
+2026-11-03T18:50:22 | INFO | PDF report: WakeUpEngine_Exploratory_Report_20261103T185013Z_selftest_MOCK_7207d4.pdf
+2026-11-03T18:50:22 | INFO | Run finished: completed. Writing manifest and SHA-256 sums.

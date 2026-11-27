@@ -1,0 +1,1 @@
+{"request_sha256": "9598e4bd26512aaaaef006f71cb3803930d8eb3c3c7298d1775972b10a52634d", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-06T07:33:40Z", "response": "{\n\"recognized\": true,\n\"title\": \"A Spectrophotometric Study of Reflection of Light from Leaf Surfaces\",\n\"first_author\": \"Gates\",\n\"year\": 1938\n}"}

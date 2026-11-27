@@ -1,0 +1,1 @@
+{"request_sha256": "acb62ab2daa705c9f5a36377eb3fa5cbc0ca6f4027adc97e74ac261c60aa697d", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-20T15:54:32Z", "response": "{\"score\": 0, \"reason\": \"The candidate paper is a caption for a photograph of a Coast Guard ship and has no relevance to the theoretical or methodological needs of poetry studies.\"}"}

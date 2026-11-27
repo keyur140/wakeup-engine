@@ -1,0 +1,1 @@
+{"request_sha256": "59e42eb4dde1fc0868ef03d262c268125a33f0a05328055a9d4419521145645b", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-04T20:14:32Z", "response": "{\n\"recognized\": true,\n\"title\": \"The Propagation of Light in Rotating Systems\",\n\"first_author\": \"Einstein\",\n\"year\": 1911\n}"}

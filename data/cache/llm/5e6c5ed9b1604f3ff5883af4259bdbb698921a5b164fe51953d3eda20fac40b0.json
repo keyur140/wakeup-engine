@@ -1,0 +1,1 @@
+{"request_sha256": "5e6c5ed9b1604f3ff5883af4259bdbb698921a5b164fe51953d3eda20fac40b0", "provider": "groq", "model": "openai/gpt-oss-20b", "retrieved_utc": "2026-11-20T21:05:18Z", "response": "{\"applicability\":3,\"novelty\":1,\"reason\":\"Provides background on resistance mechanisms and conjugation but does not present new treatment or prevention strategies for XDR Typhi.\"}"}

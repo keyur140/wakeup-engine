@@ -1,0 +1,282 @@
+[
+  {
+    "seed": 53438895,
+    "hits": 1,
+    "n": 16,
+    "p": 0.8146979811148165,
+    "supported": false
+  },
+  {
+    "seed": 6447374,
+    "hits": 1,
+    "n": 15,
+    "p": 0.7941088679053517,
+    "supported": false
+  },
+  {
+    "seed": 51310402,
+    "hits": 5,
+    "n": 19,
+    "p": 0.0351941550044748,
+    "supported": true
+  },
+  {
+    "seed": 77774625,
+    "hits": 0,
+    "n": 11,
+    "p": 1.0,
+    "supported": false
+  },
+  {
+    "seed": 59321546,
+    "hits": 1,
+    "n": 15,
+    "p": 0.7941088679053517,
+    "supported": false
+  },
+  {
+    "seed": 40686685,
+    "hits": 0,
+    "n": 17,
+    "p": 1.0,
+    "supported": false
+  },
+  {
+    "seed": 78863837,
+    "hits": 0,
+    "n": 12,
+    "p": 1.0,
+    "supported": false
+  },
+  {
+    "seed": 71420447,
+    "hits": 2,
+    "n": 19,
+    "p": 0.5797350211684029,
+    "supported": false
+  },
+  {
+    "seed": 49580301,
+    "hits": 2,
+    "n": 17,
+    "p": 0.5182147508985218,
+    "supported": false
+  },
+  {
+    "seed": 81639162,
+    "hits": 1,
+    "n": 12,
+    "p": 0.7175704635190004,
+    "supported": false
+  },
+  {
+    "seed": 23763179,
+    "hits": 3,
+    "n": 18,
+    "p": 0.2662040052146712,
+    "supported": false
+  },
+  {
+    "seed": 67202630,
+    "hits": 2,
+    "n": 15,
+    "p": 0.45095698108093635,
+    "supported": false
+  },
+  {
+    "seed": 1816504,
+    "hits": 0,
+    "n": 12,
+    "p": 1.0,
+    "supported": false
+  },
+  {
+    "seed": 20134281,
+    "hits": 2,
+    "n": 15,
+    "p": 0.45095698108093635,
+    "supported": false
+  },
+  {
+    "seed": 59596335,
+    "hits": 1,
+    "n": 13,
+    "p": 0.7458134171671005,
+    "supported": false
+  },
+  {
+    "seed": 30922964,
+    "hits": 0,
+    "n": 15,
+    "p": 1.0,
+    "supported": false
+  },
+  {
+    "seed": 70558537,
+    "hits": 5,
+    "n": 22,
+    "p": 0.062133671346701044,
+    "supported": false
+  },
+  {
+    "seed": 59944934,
+    "hits": 1,
+    "n": 18,
+    "p": 0.8499053647030015,
+    "supported": false
+  },
+  {
+    "seed": 41670833,
+    "hits": 0,
+    "n": 14,
+    "p": 1.0,
+    "supported": false
+  },
+  {
+    "seed": 23283051,
+    "hits": 1,
+    "n": 20,
+    "p": 0.8784233454094312,
+    "supported": false
+  },
+  {
+    "seed": 57281057,
+    "hits": 3,
+    "n": 19,
+    "p": 0.2945552141041044,
+    "supported": false
+  },
+  {
+    "seed": 12064897,
+    "hits": 2,
+    "n": 16,
+    "p": 0.4852721697633779,
+    "supported": false
+  },
+  {
+    "seed": 43551836,
+    "hits": 2,
+    "n": 16,
+    "p": 0.4852721697633779,
+    "supported": false
+  },
+  {
+    "seed": 38444716,
+    "hits": 2,
+    "n": 21,
+    "p": 0.6352700362282927,
+    "supported": false
+  },
+  {
+    "seed": 88719281,
+    "hits": 1,
+    "n": 18,
+    "p": 0.8499053647030015,
+    "supported": false
+  },
+  {
+    "seed": 6695251,
+    "hits": 1,
+    "n": 20,
+    "p": 0.8784233454094312,
+    "supported": false
+  },
+  {
+    "seed": 85935390,
+    "hits": 1,
+    "n": 16,
+    "p": 0.8146979811148165,
+    "supported": false
+  },
+  {
+    "seed": 39944049,
+    "hits": 1,
+    "n": 14,
+    "p": 0.7712320754503906,
+    "supported": false
+  },
+  {
+    "seed": 52584020,
+    "hits": 2,
+    "n": 13,
+    "p": 0.37865501974180016,
+    "supported": false
+  },
+  {
+    "seed": 82974064,
+    "hits": 3,
+    "n": 16,
+    "p": 0.21075066030384568,
+    "supported": false
+  },
+  {
+    "seed": 6499178,
+    "hits": 0,
+    "n": 14,
+    "p": 1.0,
+    "supported": false
+  },
+  {
+    "seed": 80374996,
+    "hits": 0,
+    "n": 20,
+    "p": 1.0,
+    "supported": false
+  },
+  {
+    "seed": 76267662,
+    "hits": 4,
+    "n": 19,
+    "p": 0.11499755780436081,
+    "supported": false
+  },
+  {
+    "seed": 96193674,
+    "hits": 0,
+    "n": 12,
+    "p": 1.0,
+    "supported": false
+  },
+  {
+    "seed": 71161857,
+    "hits": 4,
+    "n": 16,
+    "p": 0.06840617391742153,
+    "supported": false
+  },
+  {
+    "seed": 79097150,
+    "hits": 2,
+    "n": 13,
+    "p": 0.37865501974180016,
+    "supported": false
+  },
+  {
+    "seed": 77651614,
+    "hits": 2,
+    "n": 14,
+    "p": 0.4153708594843302,
+    "supported": false
+  },
+  {
+    "seed": 31941095,
+    "hits": 1,
+    "n": 14,
+    "p": 0.7712320754503906,
+    "supported": false
+  },
+  {
+    "seed": 92359380,
+    "hits": 2,
+    "n": 12,
+    "p": 0.34099774821100015,
+    "supported": false
+  },
+  {
+    "seed": 75214950,
+    "hits": 0,
+    "n": 12,
+    "p": 1.0,
+    "supported": false
+  }
+]

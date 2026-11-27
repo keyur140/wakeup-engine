@@ -1,0 +1,1 @@
+{"request_sha256": "a38143b308324e10975de1013a4fafe80803b1a75d51cd6ef9b119dd83a22489", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-06T14:22:52Z", "response": "{\n\"recognized\": true,\n\"title\": \"Size frequency distributions of sediments\",\n\"first_author\": \"Krumbein\",\n\"year\": 1941\n}"}

@@ -1,0 +1,1 @@
+{"request_sha256": "c7739cd34e994f8db2b6714b904a5793e6c29d2cc1b45ab07629fd16c892a610", "provider": "groq", "model": "openai/gpt-oss-120b", "retrieved_utc": "2026-11-11T22:26:06Z", "response": "{\"text\":\"Please provide the abstract text you would like rewritten.\"}"}

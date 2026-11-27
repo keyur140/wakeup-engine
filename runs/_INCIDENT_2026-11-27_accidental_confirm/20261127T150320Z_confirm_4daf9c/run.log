@@ -1,0 +1,6 @@
+2026-11-27T15:03:20 | INFO | Run 20261127T150320Z_confirm_4daf9c started (command=confirm, mock=False)
+2026-11-27T15:03:20 | INFO | Author: KEYUR SHAILESHKUMAR PATEL (https://orcid.org/0009-0008-5261-043X)
+2026-11-27T15:03:20 | INFO | Preregistration check: MATCHES_FREEZE
+2026-11-27T15:03:21 | INFO | Using the FROZEN sleeping-beauty sample (100 items)
+2026-11-27T15:03:21 | INFO | Split: 21 development, 79 confirmatory. This run processes the confirm part only (79 items).
+2026-11-27T15:03:21 | INFO | [1/79] SB W1993374508 (1928, woke 2018, B=8414.0)

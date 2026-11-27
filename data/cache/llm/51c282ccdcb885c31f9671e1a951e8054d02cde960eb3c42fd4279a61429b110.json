@@ -1,0 +1,1 @@
+{"request_sha256": "51c282ccdcb885c31f9671e1a951e8054d02cde960eb3c42fd4279a61429b110", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-11T22:32:33Z", "response": "{\n\"recognized\": true,\n\"title\": \"Embarrassment and Social Organization\",\n\"first_author\": \"Goffman\",\n\"year\": 1959\n}"}

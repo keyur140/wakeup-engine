@@ -1,0 +1,1 @@
+{"request_sha256": "4f09b3add3a3f2025296605bbdd0face34f286be66d01a8e0dfa9dfa2ee7b96b", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-20T15:51:24Z", "response": "{\n\"recognized\": true,\n\"title\": \"Geology of Central San Clemente Island, California\",\n\"first_author\": \"Moss\",\n\"year\": 1971\n}"}

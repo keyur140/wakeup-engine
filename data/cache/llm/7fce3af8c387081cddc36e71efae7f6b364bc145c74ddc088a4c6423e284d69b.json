@@ -1,0 +1,1 @@
+{"request_sha256": "7fce3af8c387081cddc36e71efae7f6b364bc145c74ddc088a4c6423e284d69b", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-04T20:06:53Z", "response": "{\n\"recognized\": true,\n\"title\": \"Kinetics of Adsorption on Carbon from Solution\",\n\"first_author\": \"Hurd\",\n\"year\": 1966\n}"}

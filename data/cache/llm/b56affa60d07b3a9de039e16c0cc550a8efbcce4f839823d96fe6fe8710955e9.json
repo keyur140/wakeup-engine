@@ -1,0 +1,1 @@
+{"request_sha256": "b56affa60d07b3a9de039e16c0cc550a8efbcce4f839823d96fe6fe8710955e9", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-20T17:00:23Z", "response": "{\"score\": 1, \"reason\": \"The paper investigates the efficacy of antibiotics for growth promotion rather than providing practical non-antibiotic alternatives to replace them.\"}"}

@@ -1,0 +1,1 @@
+{"request_sha256": "3514c8b180569e7e8e2e509573dd485d64f6e659a23465715e4a33cc7621bdb5", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-05T13:25:00Z", "response": "{\n\"recognized\": true,\n\"title\": \"The theory of dynamic programming\",\n\"first_author\": \"Bellman\",\n\"year\": 1957\n}"}

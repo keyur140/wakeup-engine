@@ -1,0 +1,1 @@
+{"request_sha256": "f428e30fec6c7407910d80857e0b2d0ce7c15d2467debaad97ba665f9223ed35", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-20T15:54:57Z", "response": "{\"score\": 0, \"reason\": \"The candidate paper is a critical history of Iranian cinema, which is entirely unrelated to the linguistic and syntactic research needs described.\"}"}

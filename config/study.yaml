@@ -1,0 +1,153 @@
+# Wake-up Engine study configuration
+# Author: KEYUR SHAILESHKUMAR PATEL (ORCID https://orcid.org/0009-0008-5261-043X)
+# Conducted independently; not an official Brunel University London project.
+#
+# Every value here is part of the preregistration. Freeze it with `python run.py freeze`
+# BEFORE collecting real data. Any later change is logged as a deviation in every run.
+
+seed: 20261026
+
+openalex:
+  base_url: https://api.openalex.org
+  requests_per_second: 8        # stay under the free limit
+  timeout_s: 60
+  max_retries: 6
+
+# ---------------------------------------------------------------- LLM backends
+# All free / open-weights. Model names on free providers change often; check the
+# provider's model list and edit here BEFORE freezing. Any OpenAI-compatible
+# endpoint works (Groq, OpenRouter, local Ollama at http://localhost:11434/v1).
+llm:
+  temperature: 0.0
+  max_tokens: 400
+  cache: true                   # identical prompts are answered from disk cache
+  roles:
+    # The engine itself (need summary + re-ranking + query expansion)
+    engine:
+      provider: groq
+      model: qwen/qwen3.8-27b
+    # Memorization check uses the engine model (it is the one that could cheat)
+    memorization:
+      provider: groq
+      model: qwen/qwen3.8-27b
+    # Disguised-text check: rewrites candidate texts. A different family from the engine,
+    # so the engine cannot recognize its own wording.
+    paraphraser:
+      provider: groq
+      model: openai/gpt-oss-120b
+    # Blind judge panel: none from the engine family (D16, 2026-11-04: Groq retired Llama 3.3,
+    # Qwen3-32B and Kimi K2; the two gpt-oss judges share a family, which is reported).
+    judges:
+      - {name: judge_gptoss120, provider: groq, model: openai/gpt-oss-120b}
+      - {name: judge_gptoss20,  provider: groq, model: openai/gpt-oss-20b}
+      - {name: judge_allam,     provider: groq, model: allam-2-7b}
+  providers:
+    groq:
+      base_url: https://api.groq.com/openai/v1
+      api_key_env: GROQ_API_KEY
+      requests_per_minute: 25
+    openrouter:
+      base_url: https://openrouter.ai/api/v1
+      api_key_env: OPENROUTER_API_KEY
+      requests_per_minute: 15
+    ollama:
+      base_url: http://localhost:11434/v1
+      api_key_env: null
+      requests_per_minute: 600
+
+embeddings:
+  # Local, free. Falls back to TF-IDF if sentence-transformers is not installed
+  # (the fallback is recorded in the manifest and is a deviation if it happens).
+  model: BAAI/bge-small-en-v1.5
+  batch_size: 64
+
+# ---------------------------------------------------------------- Back-test
+backtest:
+  # Step 1: candidate pool of old, highly cited papers
+  candidate_pub_years: [1900, 1985]
+  candidate_min_citations: 100
+  candidate_pool_size: 6000       # random sample (OpenAlex `sample` + seed)
+  # Step 2: Ke et al. (2015) beauty coefficient B and awakening time
+  min_sleep_years: 10             # awakening at least 10 years after publication
+  max_awakening_year: 2018        # leaves time to see the wake-up
+  min_awakening_year: 1950
+  min_peak_citations: 20          # c_m
+  min_beauty_B: 50
+  n_sleeping_beauties: 100        # top-100 by B that pass all filters
+  min_usable: 50                  # study is reported as underpowered below this
+  # Step 3: "the need" as it stood the year before awakening
+  awakener_window_years: 3        # citing papers in [Y, Y+3] define the waking field
+  need_context_year_offset: 1     # need built from field papers of year Y-1
+  need_context_n_abstracts: 20
+  # Step 4: candidate set for ranking
+  n_candidates: 1000              # 1 true sleeping beauty + 999 decoys
+  decoy_pub_year_window: 3        # decoys published within +/-3 years of the SB
+  decoy_match: same_field         # same OpenAlex field as the SB
+  # Step 5: ranking
+  rerank_top_k: 50                # LLM re-ranks top-50 of hybrid retrieval
+  hit_k: 10                       # PRIMARY: hit = true SB in top 10 of 1000
+  report_k: [1, 5, 10, 50, 100]
+  # Blinding
+  anonymize: true                 # strip author names, years, venue
+  include_title: true             # anonymized title + abstract
+  # Leakage control
+  memorization_check: true
+  memorization_title_similarity: 0.6
+  sensitivity_raw_need: true      # also rank with raw abstracts (no LLM summary)
+  min_decoys: 99                  # an item needs at least 99 decoys to be usable
+  # D20 (2026-11-27, before OSF registration): confirmatory item partly processed by an accidental
+  # `confirm` start (ISSUES I21). The author excluded it; it is skipped before any data or model call.
+  excluded_before_registration: [W1993374508]
+  # Lock (v0.2): every selected sleeping beauty is put in the development or the
+  # confirmatory part by SHA-256 of (seed, OpenAlex ID). Exploratory runs see only
+  # the development part; the confirmatory part stays locked until after OSF registration.
+  dev_fraction: 0.2               # 20% development, 80% locked confirmatory
+  min_usable_dev: 5
+  # Disguised-text check (secondary): the hybrid top-k texts are all rewritten by the
+  # paraphraser model and re-ranked. A big drop suggests recognition, not reasoning.
+  disguise_check: true
+  disguise_top_k: 20
+
+# ---------------------------------------------------------------- Forward test
+forward:
+  problems_file: config/forward_problems_antibiotic_resistance.yaml
+  # Practice problems used ONLY by exploratory runs, so the 20 preregistered problems stay unseen.
+  dev_problems_file: config/forward_problems_dev.yaml
+  max_pub_year: 1989              # pre-1990 literature only
+  query_expansion_n: 5            # LLM proposes 5 historical-vocabulary queries
+  results_per_query: 100
+  forgotten_max_citations: 25     # a candidate must be little-cited to count as "forgotten"
+  rerank_top_k: 50
+  n_engine_candidates: 5          # top-5 per problem go to the judges
+  n_pool_random_controls: 5       # random from the same retrieved pool (primary control)
+  n_global_random_controls: 5     # random pre-1990 papers (secondary control)
+
+rating:
+  scale: [1, 2, 3, 4, 5]
+  hit_min_median_applicability: 4
+  hit_min_judges_at_threshold: 2  # at least 2 of 3 judges rate >= 4
+  hit_min_median_novelty: 3
+  min_alpha_reliable: 0.40        # Krippendorff alpha below this -> exploratory only
+
+# ---------------------------------------------------------------- Known-answer gate (v0.2)
+# Before a model's scores count, it must rank the real sleeping beauty above decoys on the
+# development items. A model that fails, or gives almost every item the same score, is dropped.
+gate:
+  n_decoys: 5
+  permutation_iterations: 10000
+  alpha: 0.05
+  min_items: 10                   # fewer usable items -> the gate cannot be passed
+  collapse_threshold: 0.95        # > 95% identical scores = answer collapse
+
+stats:
+  alpha: 0.05
+  bootstrap_iterations: 10000
+  permutation_iterations: 10000
+
+# ---------------------------------------------------------------- Offline mock (self-test only)
+# Used only by `selftest` and `validate`. Never affects real runs.
+mock:
+  engine_behaviour: signal
+  memorization_behaviour: signal
+  paraphraser_behaviour: signal
+  judge_behaviours: [signal, signal, signal]

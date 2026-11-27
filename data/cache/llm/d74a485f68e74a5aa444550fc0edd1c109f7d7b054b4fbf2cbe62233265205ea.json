@@ -1,0 +1,1 @@
+{"request_sha256": "d74a485f68e74a5aa444550fc0edd1c109f7d7b054b4fbf2cbe62233265205ea", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-11T22:25:12Z", "response": "{\n\"recognized\": true,\n\"title\": \"Application of the Multiplier Phototube to Astronomical Photoelectric Photometry\",\n\"first_author\": \"Hiltner\",\n\"year\": 1950\n}"}

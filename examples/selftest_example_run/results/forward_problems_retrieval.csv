@@ -1,0 +1,5 @@
+problem,title,queries,n_retrieved,n_forgotten,skipped
+DEV01,Resistant Helicobacter pylori,gastric spiral bacteria treatment | stomach bacteria bismuth | gastric infection non-antibiotic | adjunct antibiotic | cheap clarithromycin | clear eradication | fail infection | makes many,79,40,
+DEV02,Drug-resistant typhoid,typhoid carrier treatment | enteric fever chronic carriage | gallbladder bacteria elimination | affordable carriage | drug extensively | few leaves | need options | oral prevent,60,34,
+DEV03,Pseudomonas in cystic fibrosis lungs,mucoid Pseudomonas sputum | airway mucus bacteria penetration | alginate bacteria lung | aeruginosa airway | antibiotics becomes | chronic clear | cystic fibrosis | infection lung,79,40,
+DEV04,Replacing growth-promoting antibiotics in farming,livestock growth promotion without antibiotics | gut flora feed additive animals | competitive exclusion poultry | alternatives animal | antibiotic antibiotics | growth health | keep livestock | need practical,0,0,True

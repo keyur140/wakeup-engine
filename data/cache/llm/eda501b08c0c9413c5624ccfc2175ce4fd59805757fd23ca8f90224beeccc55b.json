@@ -1,0 +1,1 @@
+{"request_sha256": "eda501b08c0c9413c5624ccfc2175ce4fd59805757fd23ca8f90224beeccc55b", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-06T23:53:26Z", "response": "{\n\"recognized\": true,\n\"title\": \"The Principle of Multiple Function: Observations on Over-Determination\",\n\"first_author\": \"Fenichel\",\n\"year\": 1936\n}"}

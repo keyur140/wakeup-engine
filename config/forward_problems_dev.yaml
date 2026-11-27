@@ -1,0 +1,34 @@
+# Practice problems for EXPLORATORY runs only (not part of the 20 preregistered problems)
+# Author: KEYUR SHAILESHKUMAR PATEL (ORCID https://orcid.org/0009-0008-5261-043X)
+# Conducted independently; not an official Brunel University London project.
+#
+# These let the exploratory run test the whole forward pipeline on real data without
+# ever showing the engine or the judges the 20 preregistered problems.
+# Statements and seed queries drafted with AI assistance for the author.
+
+field: antibiotic resistance (practice set)
+problems:
+  - id: DEV01
+    title: Resistant Helicobacter pylori
+    statement: >-
+      Clarithromycin and metronidazole resistance now makes standard H. pylori eradication fail
+      in many patients. We need cheap, non-antibiotic or adjunct ways to clear stomach infection.
+    seed_queries: [gastric spiral bacteria treatment, stomach bacteria bismuth, gastric infection non-antibiotic]
+  - id: DEV02
+    title: Drug-resistant typhoid
+    statement: >-
+      Extensively drug-resistant Salmonella Typhi leaves few oral treatment options. We need
+      affordable ways to treat or prevent carriage and spread of resistant typhoid.
+    seed_queries: [typhoid carrier treatment, enteric fever chronic carriage, gallbladder bacteria elimination]
+  - id: DEV03
+    title: Pseudomonas in cystic fibrosis lungs
+    statement: >-
+      Chronic Pseudomonas aeruginosa lung infection in cystic fibrosis becomes mucoid and
+      tolerant to antibiotics. We need ways to clear or weaken it in thick airway mucus.
+    seed_queries: [mucoid Pseudomonas sputum, airway mucus bacteria penetration, alginate bacteria lung]
+  - id: DEV04
+    title: Replacing growth-promoting antibiotics in farming
+    statement: >-
+      Routine antibiotic use for growth promotion in livestock selects for resistance. We need
+      practical alternatives that keep animal health and growth without antibiotics.
+    seed_queries: [livestock growth promotion without antibiotics, gut flora feed additive animals, competitive exclusion poultry]

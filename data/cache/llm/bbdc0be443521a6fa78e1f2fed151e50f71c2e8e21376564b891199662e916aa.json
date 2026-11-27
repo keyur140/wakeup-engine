@@ -1,0 +1,1 @@
+{"request_sha256": "bbdc0be443521a6fa78e1f2fed151e50f71c2e8e21376564b891199662e916aa", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-20T15:54:20Z", "response": "{\"score\": 0, \"reason\": \"The candidate paper's title and abstract are empty or corrupted, providing no information to evaluate its relevance to the research need.\"}"}

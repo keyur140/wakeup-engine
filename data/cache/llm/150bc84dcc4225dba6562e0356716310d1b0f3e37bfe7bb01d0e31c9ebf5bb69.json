@@ -1,0 +1,1 @@
+{"request_sha256": "150bc84dcc4225dba6562e0356716310d1b0f3e37bfe7bb01d0e31c9ebf5bb69", "provider": "groq", "model": "openai/gpt-oss-20b", "retrieved_utc": "2026-11-20T16:20:58Z", "response": "{\"applicability\":1,\"novelty\":1,\"reason\":\"The paper focuses on speech articulation accuracy, which has no direct relevance to traffic safety, infrastructure, or injury outcomes.\"}"}

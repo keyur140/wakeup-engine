@@ -1,0 +1,1 @@
+{"request_sha256": "0f98034802bd56c7457511561f69af5dabfce76637bccfff910b0ec3606bbcb3", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-05T20:25:05Z", "response": "{\"score\": 0, \"reason\": \"The candidate paper is a political statement regarding an IEEE award and has no relevance to linguistic theory, syntax, semantics, or historical linguistics.\"}"}

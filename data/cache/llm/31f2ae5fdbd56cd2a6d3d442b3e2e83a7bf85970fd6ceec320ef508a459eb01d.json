@@ -1,0 +1,1 @@
+{"request_sha256": "31f2ae5fdbd56cd2a6d3d442b3e2e83a7bf85970fd6ceec320ef508a459eb01d", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-20T15:56:55Z", "response": "{\"score\": 0, \"reason\": \"The candidate paper is a collection of psychoanalytic essays unrelated to traffic safety, road infrastructure, or epidemiological studies of road users.\"}"}

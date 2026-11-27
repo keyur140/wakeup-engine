@@ -1,0 +1,58 @@
+[
+  {
+    "model_name": "engine",
+    "role": "engine",
+    "provider": "groq",
+    "model": "qwen/qwen3.8-27b",
+    "n_items": 21,
+    "auc": 0.8,
+    "p_one_sided": 9.999000099990002e-05,
+    "largest_identical_share": 0.8809523809523809,
+    "parse_failure_rate": 0.0,
+    "collapsed": false,
+    "passed": true,
+    "reason": "passed"
+  },
+  {
+    "model_name": "judge_gptoss120",
+    "role": "judge",
+    "provider": "groq",
+    "model": "openai/gpt-oss-120b",
+    "n_items": 21,
+    "auc": 0.8,
+    "p_one_sided": 9.999000099990002e-05,
+    "largest_identical_share": 0.7380952380952381,
+    "parse_failure_rate": 0.0,
+    "collapsed": false,
+    "passed": true,
+    "reason": "passed"
+  },
+  {
+    "model_name": "judge_gptoss20",
+    "role": "judge",
+    "provider": "groq",
+    "model": "openai/gpt-oss-20b",
+    "n_items": 21,
+    "auc": 0.8714285714285714,
+    "p_one_sided": 9.999000099990002e-05,
+    "largest_identical_share": 0.7857142857142857,
+    "parse_failure_rate": 0.0,
+    "collapsed": false,
+    "passed": true,
+    "reason": "passed"
+  },
+  {
+    "model_name": "judge_allam",
+    "role": "judge",
+    "provider": "groq",
+    "model": "allam-2-7b",
+    "n_items": 17,
+    "auc": 0.6558441558441559,
+    "p_one_sided": 0.017698230176982303,
+    "largest_identical_share": 0.4,
+    "parse_failure_rate": 0.12698412698412698,
+    "collapsed": false,
+    "passed": true,
+    "reason": "passed"
+  }
+]

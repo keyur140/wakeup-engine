@@ -1,0 +1,124 @@
+seed: 20261026
+openalex:
+  base_url: https://api.openalex.org
+  requests_per_second: 8
+  timeout_s: 60
+  max_retries: 6
+llm:
+  temperature: 0.0
+  max_tokens: 400
+  cache: true
+  roles:
+    engine:
+      provider: groq
+      model: llama-3.3-70b-versatile
+    memorization:
+      provider: groq
+      model: llama-3.3-70b-versatile
+    paraphraser:
+      provider: groq
+      model: qwen/qwen3-32b
+    judges:
+    - name: judge_qwen
+      provider: groq
+      model: qwen/qwen3-32b
+    - name: judge_gptoss
+      provider: groq
+      model: openai/gpt-oss-120b
+    - name: judge_kimi
+      provider: groq
+      model: moonshotai/kimi-k2-instruct
+  providers:
+    groq:
+      base_url: https://api.groq.com/openai/v1
+      api_key_env: GROQ_API_KEY
+      requests_per_minute: 25
+    openrouter:
+      base_url: https://openrouter.ai/api/v1
+      api_key_env: OPENROUTER_API_KEY
+      requests_per_minute: 15
+    ollama:
+      base_url: http://localhost:11434/v1
+      api_key_env: null
+      requests_per_minute: 600
+embeddings:
+  model: BAAI/bge-small-en-v1.5
+  batch_size: 64
+  force_tfidf: true
+backtest:
+  candidate_pub_years:
+  - 1900
+  - 1985
+  candidate_min_citations: 100
+  candidate_pool_size: 2500
+  min_sleep_years: 10
+  max_awakening_year: 2018
+  min_awakening_year: 1920
+  min_peak_citations: 20
+  min_beauty_B: 50
+  n_sleeping_beauties: 40
+  min_usable: 5
+  awakener_window_years: 3
+  need_context_year_offset: 1
+  need_context_n_abstracts: 20
+  n_candidates: 100
+  decoy_pub_year_window: 3
+  decoy_match: same_field
+  rerank_top_k: 20
+  hit_k: 10
+  report_k:
+  - 1
+  - 5
+  - 10
+  - 50
+  - 100
+  anonymize: true
+  include_title: true
+  memorization_check: true
+  memorization_title_similarity: 0.6
+  sensitivity_raw_need: true
+  min_decoys: 60
+  dev_fraction: 0.5
+  min_usable_dev: 5
+  disguise_check: true
+  disguise_top_k: 10
+forward:
+  problems_file: config/forward_problems_antibiotic_resistance.yaml
+  dev_problems_file: config/forward_problems_dev.yaml
+  max_pub_year: 1989
+  query_expansion_n: 5
+  results_per_query: 60
+  forgotten_max_citations: 25
+  rerank_top_k: 15
+  n_engine_candidates: 5
+  n_pool_random_controls: 5
+  n_global_random_controls: 5
+rating:
+  scale:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  hit_min_median_applicability: 4
+  hit_min_judges_at_threshold: 2
+  hit_min_median_novelty: 3
+  min_alpha_reliable: 0.4
+gate:
+  n_decoys: 5
+  permutation_iterations: 1000
+  alpha: 0.05
+  min_items: 5
+  collapse_threshold: 0.95
+stats:
+  alpha: 0.05
+  bootstrap_iterations: 500
+  permutation_iterations: 1000
+mock:
+  engine_behaviour: signal
+  memorization_behaviour: signal
+  paraphraser_behaviour: signal
+  judge_behaviours:
+  - signal
+  - signal
+  - signal

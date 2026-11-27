@@ -1,0 +1,1 @@
+{"request_sha256": "da6926e7e9faa416f8059b9ac1e8beb489a99d1ddb083540e4c9cab245fa9ae2", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-11T22:25:09Z", "response": "{\n\"recognized\": true,\n\"title\": \"On the Notions of Causality and Complementarity\",\n\"first_author\": \"Bohr\",\n\"year\": 1928\n}"}

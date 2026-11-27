@@ -1,0 +1,1 @@
+{"request_sha256": "55a788b07e850749ce9c85e67dbd87dc5ce73b91249c737461640ee416e8dbfd", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-20T15:53:39Z", "response": "{\"score\": 0, \"reason\": \"The candidate paper is a bibliographic index of art theses and has no relevance to transportation modeling, infrastructure evaluation, or travel behavior.\"}"}

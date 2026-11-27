@@ -1,0 +1,1 @@
+{"request_sha256": "9025ab65cfd67853a6ffb0c1d603fc47423c221bc729f634b950eb750173ba37", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-06T02:15:53Z", "response": "{\n\"recognized\": true,\n\"title\": \"I. On the atomic weight of chlorine\",\n\"first_author\": \"Dixon\",\n\"year\": 1900\n}"}

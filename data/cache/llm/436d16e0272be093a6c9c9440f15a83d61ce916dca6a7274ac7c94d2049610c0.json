@@ -1,0 +1,1 @@
+{"request_sha256": "436d16e0272be093a6c9c9440f15a83d61ce916dca6a7274ac7c94d2049610c0", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-20T15:51:18Z", "response": "{\n\"recognized\": true,\n\"title\": \"The Mineralogy and Petrology of Mount Suswa, Kenya\",\n\"first_author\": \"Wager\",\n\"year\": 1956\n}"}

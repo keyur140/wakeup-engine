@@ -1,0 +1,1 @@
+{"request_sha256": "c05bf20cedef03cdebb85469392189d643945d9f3636ed4d54e0e26b0023deb5", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-06T23:46:29Z", "response": "{\n\"recognized\": true,\n\"title\": \"A Theoretical Field-Analysis of Automobile-Driving\",\n\"first_author\": \"Wickens\",\n\"year\": 1958\n}"}

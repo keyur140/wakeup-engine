@@ -1,0 +1,1 @@
+{"request_sha256": "5a464bff442520eee1d50a166f36d5fcb1e52fe71a309e6d71fc267702cfd3a8", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-06T07:35:22Z", "response": "{\n\"recognized\": false,\n\"title\": null,\n\"first_author\": null,\n\"year\": null\n}"}

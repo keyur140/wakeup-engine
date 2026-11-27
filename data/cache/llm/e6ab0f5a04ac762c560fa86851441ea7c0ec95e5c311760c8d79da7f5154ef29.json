@@ -1,0 +1,1 @@
+{"request_sha256": "e6ab0f5a04ac762c560fa86851441ea7c0ec95e5c311760c8d79da7f5154ef29", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-04T19:49:55Z", "response": "{\n\"recognized\": true,\n\"title\": \"The Authoritarian State\",\n\"first_author\": \"Marcuse\",\n\"year\": 1938\n}"}

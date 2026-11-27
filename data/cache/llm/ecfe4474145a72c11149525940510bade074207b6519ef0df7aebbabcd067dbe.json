@@ -1,0 +1,1 @@
+{"request_sha256": "ecfe4474145a72c11149525940510bade074207b6519ef0df7aebbabcd067dbe", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-05T13:31:10Z", "response": "{\n\"recognized\": true,\n\"title\": \"The Deformation and Ageing of Mild Steel: III Discussion of Results\",\n\"first_author\": \"Pugh\",\n\"year\": 1934\n}"}

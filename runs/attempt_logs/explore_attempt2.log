@@ -1,0 +1,110 @@
+2026-11-04T19:55:01 | INFO | Run 20261104T195500Z_explore_48a0d3 started (command=explore, mock=False)
+2026-11-04T19:55:01 | INFO | Author: KEYUR SHAILESHKUMAR PATEL (https://orcid.org/0009-0008-5261-043X)
+2026-11-04T19:55:01 | INFO | Preregistration check: NOT_FROZEN
+2026-11-04T19:55:01 | INFO | Sampling up to 6000 candidate old papers: {'publication_year': '1900-1985', 'cited_by_count': '>99', 'has_abstract': 'true', 'type': 'article'}
+2026-11-04T19:55:03 | INFO | Candidate pool: 6000 papers
+2026-11-04T19:55:03 | INFO |   citation histories: 250/6000
+2026-11-04T19:55:03 | INFO |   citation histories: 500/6000
+2026-11-04T19:55:03 | INFO |   citation histories: 750/6000
+2026-11-04T19:55:03 | INFO |   citation histories: 1000/6000
+2026-11-04T19:55:03 | INFO |   citation histories: 1250/6000
+2026-11-04T19:55:03 | INFO |   citation histories: 1500/6000
+2026-11-04T19:55:03 | INFO |   citation histories: 1750/6000
+2026-11-04T19:55:03 | INFO |   citation histories: 2000/6000
+2026-11-04T19:55:03 | INFO |   citation histories: 2250/6000
+2026-11-04T19:55:03 | INFO |   citation histories: 2500/6000
+2026-11-04T19:55:03 | INFO |   citation histories: 2750/6000
+2026-11-04T19:55:03 | INFO |   citation histories: 3000/6000
+2026-11-04T19:55:04 | INFO |   citation histories: 3250/6000
+2026-11-04T19:55:04 | INFO |   citation histories: 3500/6000
+2026-11-04T19:55:04 | INFO |   citation histories: 3750/6000
+2026-11-04T19:55:04 | INFO |   citation histories: 4000/6000
+2026-11-04T19:55:04 | INFO |   citation histories: 4250/6000
+2026-11-04T19:55:04 | INFO |   citation histories: 4500/6000
+2026-11-04T19:55:04 | INFO |   citation histories: 4750/6000
+2026-11-04T19:55:04 | INFO |   citation histories: 5000/6000
+2026-11-04T19:55:04 | INFO |   citation histories: 5250/6000
+2026-11-04T19:55:04 | INFO |   citation histories: 5500/6000
+2026-11-04T19:55:04 | INFO |   citation histories: 5750/6000
+2026-11-04T19:55:04 | INFO | Eligible sleeping beauties: 660, selected: 100
+2026-11-04T19:55:04 | INFO | Split: 21 development, 79 confirmatory. This run processes the dev part only (21 items).
+2026-11-04T19:55:04 | INFO | [1/21] SB W4210785022 (1915, woke 2018, B=7570.5)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2589.15it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-11-04T19:57:49 | INFO |    ranks: {'random': 260, 'bm25': 701, 'dense': 35, 'hybrid': 96, 'engine': 96}
+2026-11-04T19:57:49 | INFO | [2/21] SB W2320303480 (1973, woke 2018, B=3617.3)
+2026-11-04T19:59:37 | WARNING | engine HTTP 503: {"error":{"message":"qwen/qwen3.8-27b is currently over capacity. Plea; retry in 2s
+2026-11-04T20:01:07 | INFO |    ranks: {'random': 779, 'bm25': 365, 'dense': 93, 'hybrid': 160, 'engine': 160}
+2026-11-04T20:01:07 | INFO | [3/21] SB W2300474821 (1963, woke 2004, B=3575.2)
+2026-11-04T20:02:55 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 1s
+2026-11-04T20:03:00 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 3s
+2026-11-04T20:03:33 | WARNING | engine HTTP 503: {"error":{"message":"qwen/qwen3.8-27b is currently over capacity. Plea; retry in 4s
+2026-11-04T20:04:29 | WARNING | engine HTTP 503: {"error":{"message":"qwen/qwen3.8-27b is currently over capacity. Plea; retry in 2s
+2026-11-04T20:04:55 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 3s
+2026-11-04T20:05:01 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 3s
+2026-11-04T20:05:07 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 3s
+2026-11-04T20:05:13 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 2s
+2026-11-04T20:05:18 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 2s
+2026-11-04T20:05:22 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 2s
+2026-11-04T20:05:30 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 2s
+2026-11-04T20:05:40 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 1s
+2026-11-04T20:08:37 | INFO |    ranks: {'random': 437, 'bm25': 61, 'dense': 3, 'hybrid': 14, 'engine': 3}
+2026-11-04T20:08:37 | INFO | [4/21] SB W1973137999 (1920, woke 2006, B=2901.0)
+2026-11-04T20:10:44 | WARNING | engine HTTP 503: {"error":{"message":"qwen/qwen3.8-27b is currently over capacity. Plea; retry in 2s
+2026-11-04T20:11:25 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 5s
+2026-11-04T20:11:32 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 1s
+2026-11-04T20:11:37 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 2s
+2026-11-04T20:11:42 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 4s
+2026-11-04T20:11:49 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 1s
+2026-11-04T20:11:54 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 2s
+2026-11-04T20:11:58 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 2s
+2026-11-04T20:12:03 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 1s
+2026-11-04T20:12:08 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 1s
+2026-11-04T20:12:13 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 4s
+2026-11-04T20:12:20 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 2s
+2026-11-04T20:12:24 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 2s
+2026-11-04T20:12:29 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 2s
+2026-11-04T20:12:34 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 1s
+2026-11-04T20:12:41 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 3s
+2026-11-04T20:12:47 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 2s
+2026-11-04T20:12:52 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 3s
+2026-11-04T20:13:25 | WARNING | engine HTTP 503: {"error":{"message":"qwen/qwen3.8-27b is currently over capacity. Plea; retry in 4s
+2026-11-04T20:15:12 | WARNING | engine HTTP 503: {"error":{"message":"qwen/qwen3.8-27b is currently over capacity. Plea; retry in 2s
+2026-11-04T20:16:28 | WARNING | engine HTTP 503: {"error":{"message":"qwen/qwen3.8-27b is currently over capacity. Plea; retry in 2s
+2026-11-04T20:17:18 | INFO |    ranks: {'random': 538, 'bm25': 11, 'dense': 11, 'hybrid': 9, 'engine': 7}
+2026-11-04T20:17:18 | INFO | [5/21] SB W2097680980 (1923, woke 1998, B=2152.4)
+2026-11-04T20:18:23 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 178s
+2026-11-04T20:21:24 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 324s
+2026-11-04T20:27:18 | WARNING | engine HTTP 503: {"error":{"message":"qwen/qwen3.8-27b is currently over capacity. Plea; retry in 4s
+2026-11-04T20:27:22 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 279s
+2026-11-04T20:32:04 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 213s
+2026-11-04T20:35:38 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 72s
+2026-11-04T20:36:52 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 215s
+2026-11-04T20:40:58 | WARNING | engine HTTP 503: {"error":{"message":"qwen/qwen3.8-27b is currently over capacity. Plea; retry in 4s
+2026-11-04T20:41:02 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 239s
+2026-11-04T20:45:01 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 133s
+2026-11-04T20:47:17 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 210s
+2026-11-04T20:50:50 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 227s
+2026-11-04T20:54:40 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 172s
+2026-11-04T20:57:32 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 32s
+2026-11-04T20:58:05 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 131s
+2026-11-04T21:00:18 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 127s
+2026-11-04T21:02:29 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 170s
+2026-11-04T21:05:19 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 33s
+2026-11-04T21:05:55 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 293s
+2026-11-04T21:10:48 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 8s
+2026-11-04T21:10:59 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 363s
+2026-11-04T21:17:05 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 215s
+2026-11-04T21:20:40 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 58s
+2026-11-04T21:21:41 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 318s
+2026-11-04T21:27:29 | WARNING | engine HTTP 503: {"error":{"message":"qwen/qwen3.8-27b is currently over capacity. Plea; retry in 4s
+2026-11-04T21:27:34 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 328s
+2026-11-04T21:33:05 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 307s
+2026-11-04T21:38:12 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 7s
+2026-11-04T21:38:19 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 31s
+2026-11-04T21:38:51 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 43s
+2026-11-04T21:39:36 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 244s
+2026-11-04T21:43:43 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 347s
+2026-11-04T21:49:31 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 10s
+2026-11-04T21:49:41 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 139s
+2026-11-04T21:52:03 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 215s

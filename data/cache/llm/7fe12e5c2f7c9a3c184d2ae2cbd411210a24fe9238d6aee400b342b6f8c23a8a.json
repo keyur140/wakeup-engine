@@ -1,0 +1,1 @@
+{"request_sha256": "7fe12e5c2f7c9a3c184d2ae2cbd411210a24fe9238d6aee400b342b6f8c23a8a", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-06T02:13:03Z", "response": "{\n\"recognized\": true,\n\"title\": \"On the Elementary Electrical Charge and the Avogadro Constant\",\n\"first_author\": \"Millikan\",\n\"year\": 1910\n}"}

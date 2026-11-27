@@ -1,0 +1,1 @@
+{"request_sha256": "60f232aca94cd60c222d7bd98cac03625a0a85fa0a289a1c8effd2ef7a2f43e2", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-06T23:51:54Z", "response": "{\n\"recognized\": true,\n\"title\": \"Can a Child Be Taught To Talk?\",\n\"first_author\": \"Stinchfield\",\n\"year\": 1939\n}"}

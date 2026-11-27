@@ -1,0 +1,1 @@
+{"request_sha256": "0be7322baca04e1a30a2526953778f194f934b625d2ef5eab6c2e5e017a38cd1", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-07T23:36:10Z", "response": "{\n\"recognized\": true,\n\"title\": \"Precessional torques as the cause of geomagnetism\",\n\"first_author\": \"Moffatt\",\n\"year\": 1970\n}"}

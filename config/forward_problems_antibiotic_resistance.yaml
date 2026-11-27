@@ -1,0 +1,131 @@
+# Forward test: 20 open problems in antibiotic resistance
+# Author: KEYUR SHAILESHKUMAR PATEL (ORCID https://orcid.org/0009-0008-5261-043X)
+# Conducted independently; not an official Brunel University London project.
+#
+# Chosen at the author's direction on 2026-10-26: problems where older (pre-1990) literature is most likely to hold
+# forgotten answers. Edit only BEFORE `python run.py freeze`.
+# seed_queries are starting searches drafted with AI assistance for the author; the engine adds its own on top.
+
+field: antibiotic resistance
+problems:
+  - id: AR01
+    title: Killing persister cells
+    statement: >-
+      Dormant persister cells survive antibiotic treatment without genetic resistance and
+      cause relapsing infections. We lack practical ways to wake or kill them.
+    seed_queries: [dormant bacteria killing, bacterial dormancy revival, non-growing bacteria drug tolerance]
+  - id: AR02
+    title: Breaking mature biofilms
+    statement: >-
+      Bacterial biofilms on implants, catheters and in chronic wounds tolerate antibiotics
+      at 100-1000x normal doses. We need ways to disperse or penetrate established biofilms.
+    seed_queries: [bacterial slime layer removal, surface film bacteria dispersal, adherent bacteria enzyme]
+  - id: AR03
+    title: Gram-negative outer membrane entry
+    statement: >-
+      Most new antibiotic candidates cannot cross the outer membrane of Gram-negative bacteria
+      or are pumped out. We need general rules or carriers for getting drugs inside.
+    seed_queries: [outer membrane permeability, cell wall penetration Gram-negative, membrane permeabilizer]
+  - id: AR04
+    title: Efflux pump inhibition
+    statement: >-
+      Multidrug efflux pumps expel many antibiotics at once. No efflux pump inhibitor is
+      approved for clinical use because candidates are toxic or weak.
+    seed_queries: [drug extrusion bacteria inhibitor, active transport inhibition bacteria, potentiation of antibiotics]
+  - id: AR05
+    title: Carbapenemase inhibitors
+    statement: >-
+      Metallo-beta-lactamases destroy carbapenems, our last-line beta-lactams, and no
+      approved inhibitor blocks them broadly.
+    seed_queries: [penicillinase inhibition metal, zinc enzyme inhibitor bacteria, beta-lactamase chelator]
+  - id: AR06
+    title: Reliable phage therapy
+    statement: >-
+      Bacteriophage therapy is promising but unreliable because bacteria quickly become
+      phage-resistant and phage selection is slow and empirical.
+    seed_queries: [bacteriophage therapy clinical, phage resistance bacteria, lytic phage treatment infection]
+  - id: AR07
+    title: Rapid susceptibility testing
+    statement: >-
+      Culture-based antibiotic susceptibility testing takes 1-3 days, so doctors prescribe
+      blindly. We need cheap tests that give an answer within an hour.
+    seed_queries: [rapid bacterial growth detection, microcalorimetry bacteria, early detection of bacterial growth]
+  - id: AR08
+    title: Slowing the evolution of resistance
+    statement: >-
+      Resistance evolves soon after each new drug is introduced. We need dosing or combination
+      strategies that reliably slow or reverse resistance evolution.
+    seed_queries: [drug fastness prevention, combined chemotherapy resistance, alternating antibacterial drugs]
+  - id: AR09
+    title: Collateral sensitivity
+    statement: >-
+      Resistance to one drug sometimes makes bacteria more sensitive to another. We cannot yet
+      predict or exploit these trade-offs in treatment.
+    seed_queries: [cross sensitivity resistant strains, increased susceptibility resistant mutants, negative cross resistance]
+  - id: AR10
+    title: Targeting virulence without killing
+    statement: >-
+      Drugs that disarm bacterial virulence (toxins, quorum sensing) might impose less
+      selection for resistance, but few have worked in patients.
+    seed_queries: [antitoxin bacterial infection, inhibition of bacterial toxin, bacterial communication inhibition]
+  - id: AR11
+    title: Restoring the gut microbiome
+    statement: >-
+      Antibiotics destroy gut bacteria, allowing C. difficile and resistant organisms to take
+      over. We need defined, safe ways to restore protective microbial communities.
+    seed_queries: [intestinal flora restoration, bacterial interference colonization, faecal flora therapy]
+  - id: AR12
+    title: Decolonizing resistant carriers
+    statement: >-
+      Many people carry resistant bacteria (MRSA, CRE) in the nose, skin or gut without
+      symptoms, and spread them. Safe decolonization methods are lacking.
+    seed_queries: [carrier state elimination staphylococcus, nasal carriage eradication, bacterial interference staphylococci]
+  - id: AR13
+    title: Treating drug-resistant tuberculosis faster
+    statement: >-
+      Drug-resistant tuberculosis needs months of toxic treatment. We need ways to shorten
+      therapy and kill slow-growing, drug-tolerant mycobacteria.
+    seed_queries: [tubercle bacilli dormant killing, chemotherapy tuberculosis shortening, mycobacteria persistence]
+  - id: AR14
+    title: Drug-resistant urinary tract infections
+    statement: >-
+      Recurrent urinary tract infections with multidrug-resistant E. coli and Klebsiella are
+      common and often leave no oral antibiotic option. We need non-antibiotic ways to prevent
+      or treat them.
+    seed_queries: [urinary infection prevention non-antibiotic, bladder bacteria adherence inhibition, urinary antiseptic methenamine]
+  - id: AR15
+    title: Neglected natural antibiotic sources
+    statement: >-
+      Antibiotic discovery from soil microbes has stalled because the same compounds are
+      rediscovered. We need overlooked organisms or habitats that make new antimicrobials.
+    seed_queries: [antibacterial substance from lichens, antibiotic production marine organisms, insect antibacterial substance]
+  - id: AR16
+    title: Resistant wound and burn infections
+    statement: >-
+      Burn and chronic wound infections with multidrug-resistant Pseudomonas and Acinetobacter
+      are hard to treat. We need topical approaches that resistance cannot easily defeat.
+    seed_queries: [burn wound infection topical treatment, honey wound antibacterial, silver wound antiseptic]
+  - id: AR17
+    title: Preventing implant infections
+    statement: >-
+      Infections of artificial joints and devices often require removing the implant. We need
+      surfaces or coatings that durably prevent bacterial colonization.
+    seed_queries: [bacterial adherence prevention surfaces, antibacterial coating metal, foreign body infection prevention]
+  - id: AR18
+    title: Untreatable gonorrhoea
+    statement: >-
+      Neisseria gonorrhoeae has become resistant to nearly every antibiotic used against it, and
+      ceftriaxone-resistant strains are spreading. We need new treatments or prevention approaches.
+    seed_queries: [gonococcus treatment local antiseptic, gonorrhoea prophylaxis, gonococcal growth inhibition]
+  - id: AR19
+    title: Blocking horizontal gene transfer
+    statement: >-
+      Resistance genes spread between bacteria on plasmids. We lack ways to stop plasmid
+      transfer or to cure bacteria of resistance plasmids.
+    seed_queries: [elimination of R factors, plasmid curing agents, inhibition of bacterial conjugation]
+  - id: AR20
+    title: Boosting host immunity against resistant bacteria
+    statement: >-
+      When antibiotics fail, strengthening the host's own defenses could clear infection, but
+      safe, specific immune-boosting treatments for bacterial infection are lacking.
+    seed_queries: [nonspecific immunity stimulation infection, serum therapy bacterial infection, phagocytosis enhancement]

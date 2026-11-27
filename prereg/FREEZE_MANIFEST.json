@@ -1,0 +1,49 @@
+{
+  "frozen_at": "2026-11-27T15:13:50Z",
+  "author": {
+    "name": "KEYUR SHAILESHKUMAR PATEL",
+    "given_names": "KEYUR SHAILESHKUMAR",
+    "family_names": "PATEL",
+    "orcid": "https://orcid.org/0009-0008-5261-043X",
+    "affiliations": [
+      "MSc Artificial Intelligence student, Department of Computer Science, Brunel University London, UK",
+      "Independent researcher"
+    ],
+    "note": "Conducted independently; not an official Brunel University London project."
+  },
+  "ai_use_statement": "AI assistance: Code and draft text were prepared with help from an AI assistant (Claude, Anthropic) under the author's direction. All design decisions, hypotheses and hit criteria were chosen by the author. The author takes full responsibility for the work.",
+  "instructions": "Upload this file, prereg/OSF_preregistration.md, prereg/frozen_sample.json and prereg/gate_frozen.json to OSF. The bundle hash fingerprints every preregistered file and all analysis code.",
+  "from_exploratory_run": "20261120T194454Z_explore_23274f",
+  "from_run_manifest_sha256": "11a60c777e92cd0f4a1cfb6d4ffb88fb52fa99f784602394de76cf6366270775",
+  "bundle_sha256": "508bdc28f784e952aabe07a1e628b24bfa6c2f4695e94a103f6e7761313b9a18",
+  "files": {
+    "prereg/OSF_preregistration.md": "e351e0a4b9c7ef09e5d71daa7dc90e58763bf24379b3861e1ea5421c1124cfe7",
+    "config/study.yaml": "080f2aef413e1f90efc306cfa92917b7cbf6c36050a584c9cceb1527247cc29a",
+    "config/forward_problems_antibiotic_resistance.yaml": "939977805789bc9c1993ce8b52d1cbc52407f7705802271f0575442b94f44ed3",
+    "config/forward_problems_dev.yaml": "1969fdfa94117169a114187f1cde0cbbf63e45512cfb5ec68e3a3553bb604992",
+    "prereg/frozen_sample.json": "138c0a68a77219eaefa31f3cfbaf32b427d67c925d6933bb8a45687f2d7b70fe",
+    "prereg/gate_frozen.json": "6e0e4f87f9876059a944b66f04222648237aa05e6d2560685886b3db8716d476",
+    "DECISIONS.md": "3a298724fac7b5074e2c3695a45b4095b2a5de739fb1f81bb9936462dafd6b99",
+    "requirements.lock": "f092408d4a19e9c8cf6b4985eb86d3b4b920fcc08cbf83057cfe5d16c4fc0b4c",
+    "wakeup/__init__.py": "5e107b77015452cf6d2ad10961ba97822426ef637beda82a0ed567244e2b57c1",
+    "wakeup/backtest.py": "fbcdc221239867105296daf3b89954f38aace7db6d28d4c7fffb1bb852090817",
+    "wakeup/beauty.py": "c99e174dbc6fefaad200d72939b79e73e516f6c61ac8a0f55185d520b5ebcf9c",
+    "wakeup/checks.py": "5b02190c820a3473511c781335fd27f5b26ede3df4e4afda462a64646eaa29e9",
+    "wakeup/forward.py": "fc0a4190309b9ea67f0d6c95a89f19bd66efc82cd514261e952c1bf6310b1dcf",
+    "wakeup/gate.py": "8e999a98fae9ef212f05492f08d15d2758a21ab30294770350c90e2987a83c74",
+    "wakeup/leakscan.py": "d57162e34f8e10d7c6f925a8b37b8b680792f5857537aeab72c94c383eb31ecf",
+    "wakeup/llm.py": "1bfeac7c2e9d45188ed9ba2b7b65603bc488047513bd75db12881438e0f4434c",
+    "wakeup/meta.py": "742a49285619d73bfdf2f9ccddd3c0822a470bf98ef8f0f4a983bb3827d6310a",
+    "wakeup/mock.py": "7ab1f9b93a29703b707ac0ce1ac049a99fc09ad2f2097828dc431e22427e75a6",
+    "wakeup/openalex.py": "6c79156710bda4df9379a80920f782d5fad75dbd2a2ebc95bf65483d13a5c07f",
+    "wakeup/pdfreport.py": "e1c880a1af4f9fc77937029c801d49c9c0bca77a308a043c7aa2aef82ac8ae86",
+    "wakeup/prompts.py": "ad2c8505392eca7c5c21f7e5dd085453c195db4ef995b301f9a0cec1dfeb555f",
+    "wakeup/report.py": "156fcf8d825559d69424231f48ed20ff2c4fd04e979c3a07d1428af0d9895d01",
+    "wakeup/retrieval.py": "bbaa5c80239cb0927bf6844e4b76523cdfb7d5cbdde2a1738cb49e511fbd7dcf",
+    "wakeup/runlog.py": "05a871b5693203b2199e9c61af543bff7ef43d3d9e5c5bc84ad0a4fcda7f4b37",
+    "wakeup/split.py": "6ba25839c80b3fe574ad14ec5c1b3d41f40a1a455f2570218c74606057289a6a",
+    "wakeup/stats.py": "f13b6ed0fcd32e01d9d59154f3cf7f0b69700dcb4a38a91bcc69e9a5bc7fe2db",
+    "wakeup/textutil.py": "45097808ee62a9a78a3bd7dacac903dd879d225304e85e4cc95b3c3db09be73d",
+    "run.py": "d2e1a24fa492aaf1667608ecc2d819b57063ffd5dfb8e3b5f4df340c514e5ac9"
+  }
+}

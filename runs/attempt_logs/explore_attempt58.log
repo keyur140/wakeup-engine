@@ -1,0 +1,257 @@
+2026-11-20T19:44:55 | INFO | Run 20261120T194454Z_explore_23274f started (command=explore, mock=False)
+2026-11-20T19:44:55 | INFO | Author: KEYUR SHAILESHKUMAR PATEL (https://orcid.org/0009-0008-5261-043X)
+2026-11-20T19:44:55 | INFO | Preregistration check: NOT_FROZEN
+2026-11-20T19:44:56 | INFO | Sampling up to 6000 candidate old papers: {'publication_year': '1900-1985', 'cited_by_count': '>99', 'has_abstract': 'true', 'type': 'article'}
+2026-11-20T19:44:58 | INFO | Candidate pool: 6000 papers
+2026-11-20T19:44:58 | INFO |   citation histories: 250/6000
+2026-11-20T19:44:58 | INFO |   citation histories: 500/6000
+2026-11-20T19:44:58 | INFO |   citation histories: 750/6000
+2026-11-20T19:44:59 | INFO |   citation histories: 1000/6000
+2026-11-20T19:44:59 | INFO |   citation histories: 1250/6000
+2026-11-20T19:44:59 | INFO |   citation histories: 1500/6000
+2026-11-20T19:45:00 | INFO |   citation histories: 1750/6000
+2026-11-20T19:45:00 | INFO |   citation histories: 2000/6000
+2026-11-20T19:45:00 | INFO |   citation histories: 2250/6000
+2026-11-20T19:45:01 | INFO |   citation histories: 2500/6000
+2026-11-20T19:45:01 | INFO |   citation histories: 2750/6000
+2026-11-20T19:45:01 | INFO |   citation histories: 3000/6000
+2026-11-20T19:45:01 | INFO |   citation histories: 3250/6000
+2026-11-20T19:45:01 | INFO |   citation histories: 3500/6000
+2026-11-20T19:45:01 | INFO |   citation histories: 3750/6000
+2026-11-20T19:45:01 | INFO |   citation histories: 4000/6000
+2026-11-20T19:45:01 | INFO |   citation histories: 4250/6000
+2026-11-20T19:45:01 | INFO |   citation histories: 4500/6000
+2026-11-20T19:45:01 | INFO |   citation histories: 4750/6000
+2026-11-20T19:45:01 | INFO |   citation histories: 5000/6000
+2026-11-20T19:45:01 | INFO |   citation histories: 5250/6000
+2026-11-20T19:45:01 | INFO |   citation histories: 5500/6000
+2026-11-20T19:45:01 | INFO |   citation histories: 5750/6000
+2026-11-20T19:45:02 | INFO | Eligible sleeping beauties: 660, selected: 100
+2026-11-20T19:45:02 | INFO | Split: 21 development, 79 confirmatory. This run processes the dev part only (21 items).
+2026-11-20T19:45:02 | INFO | [1/21] SB W4210785022 (1915, woke 2018, B=7570.5)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 3588.50it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-11-20T19:45:08 | INFO |    ranks: {'random': 260, 'bm25': 701, 'dense': 35, 'hybrid': 96, 'engine': 96}
+2026-11-20T19:45:08 | INFO | [2/21] SB W2320303480 (1973, woke 2018, B=3617.3)
+2026-11-20T19:45:09 | INFO |    ranks: {'random': 779, 'bm25': 365, 'dense': 93, 'hybrid': 160, 'engine': 160}
+2026-11-20T19:45:09 | INFO | [3/21] SB W2300474821 (1963, woke 2004, B=3575.2)
+2026-11-20T19:45:09 | INFO |    ranks: {'random': 437, 'bm25': 61, 'dense': 3, 'hybrid': 14, 'engine': 3}
+2026-11-20T19:45:09 | INFO | [4/21] SB W1973137999 (1920, woke 2006, B=2901.0)
+2026-11-20T19:45:10 | INFO |    ranks: {'random': 538, 'bm25': 11, 'dense': 11, 'hybrid': 9, 'engine': 7}
+2026-11-20T19:45:10 | INFO | [5/21] SB W2097680980 (1923, woke 1998, B=2152.4)
+2026-11-20T19:45:11 | INFO |    ranks: {'random': 762, 'bm25': 534, 'dense': 936, 'hybrid': 822, 'engine': 822}
+2026-11-20T19:45:11 | INFO | [6/21] SB W1980516134 (1954, woke 2007, B=2007.7)
+2026-11-20T19:45:11 | INFO |    ranks: {'random': 786, 'bm25': 355, 'dense': 75, 'hybrid': 127, 'engine': 127}
+2026-11-20T19:45:11 | INFO | [7/21] SB W2163272368 (1951, woke 2000, B=1664.8)
+2026-11-20T19:45:13 | INFO |    ranks: {'random': 479, 'bm25': 1, 'dense': 3, 'hybrid': 1, 'engine': 1}
+2026-11-20T19:45:13 | INFO | [8/21] SB W1567077956 (1961, woke 2009, B=1190.6)
+2026-11-20T19:45:13 | INFO |    ranks: {'random': 73, 'bm25': 27, 'dense': 13, 'hybrid': 5, 'engine': 4}
+2026-11-20T19:45:13 | INFO | [9/21] SB W2071736781 (1979, woke 2011, B=1184.8)
+2026-11-20T19:45:14 | INFO |    ranks: {'random': 338, 'bm25': 30, 'dense': 25, 'hybrid': 8, 'engine': 12}
+2026-11-20T19:45:14 | INFO | [10/21] SB W1992622896 (1913, woke 2003, B=1050.8)
+2026-11-20T19:45:15 | INFO |    ranks: {'random': 574, 'bm25': 562, 'dense': 674, 'hybrid': 729, 'engine': 729}
+2026-11-20T19:45:15 | INFO | [11/21] SB W2012721313 (1929, woke 2016, B=920.3)
+2026-11-20T19:45:15 | INFO |    ranks: {'random': 913, 'bm25': 20, 'dense': 6, 'hybrid': 4, 'engine': 1}
+2026-11-20T19:45:15 | INFO | [12/21] SB W2143370091 (1934, woke 2008, B=849.1)
+2026-11-20T19:45:16 | INFO |    ranks: {'random': 118, 'bm25': 61, 'dense': 330, 'hybrid': 112, 'engine': 112}
+2026-11-20T19:45:16 | INFO | [13/21] SB W1981366806 (1923, woke 1997, B=784.9)
+2026-11-20T19:45:17 | INFO |    ranks: {'random': 39, 'bm25': 154, 'dense': 316, 'hybrid': 233, 'engine': 233}
+2026-11-20T19:45:17 | INFO | [14/21] SB W1980250221 (1938, woke 1996, B=758.4)
+2026-11-20T19:45:18 | INFO |    ranks: {'random': 318, 'bm25': 41, 'dense': 1, 'hybrid': 4, 'engine': 3}
+2026-11-20T19:45:18 | INFO | [15/21] SB W2921739329 (1981, woke 2014, B=644.0)
+2026-11-20T19:45:18 | INFO |    ranks: {'random': 762, 'bm25': 157, 'dense': 13, 'hybrid': 23, 'engine': 25}
+2026-11-20T19:45:18 | INFO | [16/21] SB W2323413210 (1969, woke 2018, B=633.9)
+2026-11-20T19:45:19 | INFO |    ranks: {'random': 481, 'bm25': 146, 'dense': 124, 'hybrid': 116, 'engine': 116}
+2026-11-20T19:45:19 | INFO | [17/21] SB W1999060947 (1963, woke 2015, B=631.5)
+2026-11-20T19:45:20 | INFO |    ranks: {'random': 782, 'bm25': 2, 'dense': 1, 'hybrid': 1, 'engine': 1}
+2026-11-20T19:45:20 | INFO | [18/21] SB W1991976434 (1956, woke 2014, B=544.7)
+2026-11-20T19:45:21 | INFO |    ranks: {'random': 373, 'bm25': 819, 'dense': 124, 'hybrid': 284, 'engine': 284}
+2026-11-20T19:45:21 | INFO | [19/21] SB W2170842367 (1948, woke 2018, B=541.0)
+2026-11-20T19:45:22 | INFO |    ranks: {'random': 854, 'bm25': 2, 'dense': 1, 'hybrid': 1, 'engine': 1}
+2026-11-20T19:45:22 | INFO | [20/21] SB W2054232302 (1956, woke 2005, B=534.2)
+2026-11-20T19:45:23 | INFO |    ranks: {'random': 957, 'bm25': 22, 'dense': 257, 'hybrid': 45, 'engine': 12}
+2026-11-20T19:45:23 | INFO | [21/21] SB W2332131649 (1969, woke 2018, B=514.2)
+2026-11-20T19:45:24 | INFO |    ranks: {'random': 516, 'bm25': 901, 'dense': 16, 'hybrid': 69, 'engine': 69}
+2026-11-20T19:45:27 | INFO | Gate engine (engine): AUC 0.800, p 0.0001, n 21, identical share 0.88 -> passed
+2026-11-20T19:45:30 | INFO | Gate judge_gptoss120 (judge): AUC 0.800, p 0.0001, n 21, identical share 0.74 -> passed
+2026-11-20T19:45:32 | INFO | Gate judge_gptoss20 (judge): AUC 0.871, p 0.0001, n 21, identical share 0.79 -> passed
+2026-11-20T19:45:33 | INFO | Gate judge_allam (judge): AUC 0.656, p 0.0177, n 17, identical share 0.40 -> passed
+2026-11-20T19:45:33 | INFO | Forward test on 4 problems
+2026-11-20T19:45:34 | INFO | [1/4] DEV01: 495 retrieved, 357 forgotten, queries=['gastric spiral bacteria treatment', 'stomach bacteria bismuth', 'gastric infection non-antibiotic', 'bacteriocin gastric mucosa', 'bile salt Helicobacter', 'probiotic lactobacillus stomach', 'interferon gastric infection', 'antimicrobial peptides epithelium']
+2026-11-20T19:45:34 | INFO | [2/4] DEV02: 743 retrieved, 562 forgotten, queries=['typhoid carrier treatment', 'enteric fever chronic carriage', 'gallbladder bacteria elimination', 'Salmonella typhi chloramphenicol resistance', 'typhoid carrier state eradication', 'Salmonella typhi phage typing', 'typhoid fever vaccine efficacy', 'Salmonella typhi tetracycline sensitivity']
+2026-11-20T19:45:34 | INFO | [3/4] DEV03: 536 retrieved, 270 forgotten, queries=['mucoid Pseudomonas sputum', 'airway mucus bacteria penetration', 'alginate bacteria lung', 'Pseudomonas aeruginosa alginate production', 'cystic fibrosis sputum viscosity', 'bacteriophage therapy Pseudomonas', 'mucolytic enzymes sputum', 'Pseudomonas biofilm formation']
+2026-11-20T19:45:34 | INFO | [4/4] DEV04: 617 retrieved, 482 forgotten, queries=['livestock growth promotion without antibiotics', 'gut flora feed additive animals', 'competitive exclusion poultry', 'antibiotic growth promotion', 'colistin resistance swine', 'probiotics animal feed', 'phage therapy livestock', 'feed additives performance']
+2026-11-20T19:45:35 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 216s
+2026-11-20T19:49:11 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 236s
+2026-11-20T19:53:08 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 114s
+2026-11-20T19:55:02 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 37s
+2026-11-20T19:55:39 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 419s
+2026-11-20T20:02:39 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 415s
+2026-11-20T20:09:34 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 260s
+2026-11-20T20:13:55 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 324s
+2026-11-20T20:19:19 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 166s
+2026-11-20T20:22:05 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 346s
+2026-11-20T20:27:52 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 58s
+2026-11-20T20:28:50 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 5s
+2026-11-20T20:28:56 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 3s
+2026-11-20T20:29:02 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 268s
+2026-11-20T20:33:33 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 131s
+2026-11-20T20:35:44 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 7s
+2026-11-20T20:35:51 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 7s
+2026-11-20T20:36:01 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 169s
+2026-11-20T20:38:53 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 239s
+2026-11-20T20:42:55 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 159s
+2026-11-20T20:45:34 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 166s
+2026-11-20T20:48:20 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 20s
+2026-11-20T20:48:43 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 147s
+2026-11-20T20:51:13 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 169s
+2026-11-20T20:54:05 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 182s
+2026-11-20T20:57:07 | INFO | Judge judge_gptoss120 rating 60 items (blind, shuffled)
+2026-11-20T20:57:43 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 2s
+2026-11-20T20:57:48 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 1s
+2026-11-20T20:57:53 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 3s
+2026-11-20T20:57:58 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 3s
+2026-11-20T20:58:04 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 2s
+2026-11-20T20:58:09 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 2s
+2026-11-20T20:58:14 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 4s
+2026-11-20T20:58:21 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 4s
+2026-11-20T20:58:27 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 2s
+2026-11-20T20:58:32 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 1s
+2026-11-20T20:58:37 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 3s
+2026-11-20T20:58:43 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 5s
+2026-11-20T20:58:50 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 3s
+2026-11-20T20:58:56 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 5s
+2026-11-20T20:59:04 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 3s
+2026-11-20T20:59:10 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 2s
+2026-11-20T20:59:15 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 6s
+2026-11-20T20:59:23 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 1s
+2026-11-20T20:59:28 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 4s
+2026-11-20T20:59:35 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 3s
+2026-11-20T20:59:41 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 2s
+2026-11-20T20:59:45 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 5s
+2026-11-20T20:59:53 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 4s
+2026-11-20T21:00:00 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 3s
+2026-11-20T21:00:06 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 2s
+2026-11-20T21:00:10 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 3s
+2026-11-20T21:00:16 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 2s
+2026-11-20T21:00:21 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 2s
+2026-11-20T21:00:26 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 2s
+2026-11-20T21:00:31 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 4s
+2026-11-20T21:00:37 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 3s
+2026-11-20T21:00:43 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 1s
+2026-11-20T21:00:48 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 1s
+2026-11-20T21:00:55 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 1s
+2026-11-20T21:01:00 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 2s
+2026-11-20T21:01:05 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 5s
+2026-11-20T21:01:13 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 1s
+2026-11-20T21:01:17 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 3s
+2026-11-20T21:01:23 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 2s
+2026-11-20T21:01:28 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 2s
+2026-11-20T21:01:33 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 4s
+2026-11-20T21:01:39 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 1s
+2026-11-20T21:01:44 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 4s
+2026-11-20T21:01:51 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 3s
+2026-11-20T21:01:57 | WARNING | judge_gptoss120 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b; retry in 4s
+2026-11-20T21:02:02 | INFO | Judge judge_gptoss20 rating 60 items (blind, shuffled)
+2026-11-20T21:02:35 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 4s
+2026-11-20T21:02:39 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 1s
+2026-11-20T21:02:47 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 6s
+2026-11-20T21:02:53 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 1s
+2026-11-20T21:02:58 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 1s
+2026-11-20T21:03:03 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 1s
+2026-11-20T21:03:07 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 6s
+2026-11-20T21:03:16 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 4s
+2026-11-20T21:03:23 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 2s
+2026-11-20T21:03:28 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 6s
+2026-11-20T21:03:36 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 6s
+2026-11-20T21:03:45 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 3s
+2026-11-20T21:03:51 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 5s
+2026-11-20T21:03:59 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 1s
+2026-11-20T21:04:03 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 2s
+2026-11-20T21:04:08 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 5s
+2026-11-20T21:04:16 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 4s
+2026-11-20T21:04:23 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 4s
+2026-11-20T21:04:30 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 6s
+2026-11-20T21:04:38 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 2s
+2026-11-20T21:04:43 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 2s
+2026-11-20T21:04:48 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 2s
+2026-11-20T21:04:53 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 3s
+2026-11-20T21:04:58 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 5s
+2026-11-20T21:05:06 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 2s
+2026-11-20T21:05:11 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 6s
+2026-11-20T21:05:20 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 4s
+2026-11-20T21:05:26 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 4s
+2026-11-20T21:05:33 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 3s
+2026-11-20T21:05:39 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 3s
+2026-11-20T21:05:45 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 6s
+2026-11-20T21:05:54 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 3s
+2026-11-20T21:05:59 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 2s
+2026-11-20T21:06:04 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 2s
+2026-11-20T21:06:09 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 2s
+2026-11-20T21:06:14 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 7s
+2026-11-20T21:06:23 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 6s
+2026-11-20T21:06:32 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 4s
+2026-11-20T21:06:39 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 3s
+2026-11-20T21:06:45 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 3s
+2026-11-20T21:06:48 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 1s
+2026-11-20T21:06:55 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 3s
+2026-11-20T21:07:01 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 2s
+2026-11-20T21:07:05 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 2s
+2026-11-20T21:07:10 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 2s
+2026-11-20T21:07:15 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 3s
+2026-11-20T21:07:21 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 3s
+2026-11-20T21:07:24 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 1s
+2026-11-20T21:07:29 | WARNING | judge_gptoss20 HTTP 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-20b`; retry in 1s
+2026-11-20T21:07:32 | INFO | Judge judge_allam rating 60 items (blind, shuffled)
+2026-11-20T21:08:07 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 1s
+2026-11-20T21:08:12 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 6s
+2026-11-20T21:08:21 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 2s
+2026-11-20T21:08:26 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 2s
+2026-11-20T21:08:30 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 2s
+2026-11-20T21:08:35 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 7s
+2026-11-20T21:08:45 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 2s
+2026-11-20T21:08:50 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 2s
+2026-11-20T21:08:55 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 7s
+2026-11-20T21:09:04 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 2s
+2026-11-20T21:09:09 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 3s
+2026-11-20T21:09:15 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 6s
+2026-11-20T21:09:24 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 2s
+2026-11-20T21:09:28 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 7s
+2026-11-20T21:09:38 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 3s
+2026-11-20T21:09:44 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 3s
+2026-11-20T21:09:50 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 7s
+2026-11-20T21:09:59 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 3s
+2026-11-20T21:10:05 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 2s
+2026-11-20T21:10:10 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 3s
+2026-11-20T21:10:15 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 9s
+2026-11-20T21:10:27 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 2s
+2026-11-20T21:10:32 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 3s
+2026-11-20T21:10:38 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 4s
+2026-11-20T21:10:44 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 4s
+2026-11-20T21:10:51 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 5s
+2026-11-20T21:10:59 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 3s
+2026-11-20T21:11:05 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 1s
+2026-11-20T21:11:09 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 1s
+2026-11-20T21:11:16 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 6s
+2026-11-20T21:11:25 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 4s
+2026-11-20T21:11:32 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 8s
+2026-11-20T21:11:40 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 1s
+2026-11-20T21:11:45 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 1s
+2026-11-20T21:11:50 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 1s
+2026-11-20T21:11:57 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 1s
+2026-11-20T21:12:02 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 2s
+2026-11-20T21:12:07 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 4s
+2026-11-20T21:12:13 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 2s
+2026-11-20T21:12:18 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 3s
+2026-11-20T21:12:24 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 3s
+2026-11-20T21:12:30 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 7s
+2026-11-20T21:12:40 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 4s
+2026-11-20T21:12:46 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 3s
+2026-11-20T21:12:52 | WARNING | judge_allam HTTP 429: {"error":{"message":"Rate limit reached for model `allam-2-7b` in orga; retry in 1s
+2026-11-20T21:12:56 | INFO | PDF report: WakeUpEngine_Exploratory_Report_20261120T194454Z_explore_23274f.pdf
+2026-11-20T21:12:56 | INFO | Run finished: completed. Writing manifest and SHA-256 sums.
+Manifest SHA-256: 11a60c777e92cd0f4a1cfb6d4ffb88fb52fa99f784602394de76cf6366270775
+
+Run folder: /tmp/claude-0/-home-user/1ba3024a-f056-5da8-9e97-0a7901245926/scratchpad/run1/wakeup-engine-v0.2.0/runs/20261120T194454Z_explore_23274f
+Manifest: /tmp/claude-0/-home-user/1ba3024a-f056-5da8-9e97-0a7901245926/scratchpad/run1/wakeup-engine-v0.2.0/runs/20261120T194454Z_explore_23274f/manifest.json
+PDF: /tmp/claude-0/-home-user/1ba3024a-f056-5da8-9e97-0a7901245926/scratchpad/run1/wakeup-engine-v0.2.0/runs/20261120T194454Z_explore_23274f/WakeUpEngine_Exploratory_Report_20261120T194454Z_explore_23274f.pdf

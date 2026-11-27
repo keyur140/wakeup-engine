@@ -1,0 +1,118 @@
+2026-11-20T17:44:36 | INFO | Run 20261120T174435Z_explore_cdd0a8 started (command=explore, mock=False)
+2026-11-20T17:44:36 | INFO | Author: KEYUR SHAILESHKUMAR PATEL (https://orcid.org/0009-0008-5261-043X)
+2026-11-20T17:44:36 | INFO | Preregistration check: NOT_FROZEN
+2026-11-20T17:44:37 | INFO | Sampling up to 6000 candidate old papers: {'publication_year': '1900-1985', 'cited_by_count': '>99', 'has_abstract': 'true', 'type': 'article'}
+2026-11-20T17:44:39 | INFO | Candidate pool: 6000 papers
+2026-11-20T17:44:39 | INFO |   citation histories: 250/6000
+2026-11-20T17:44:40 | INFO |   citation histories: 500/6000
+2026-11-20T17:44:40 | INFO |   citation histories: 750/6000
+2026-11-20T17:44:41 | INFO |   citation histories: 1000/6000
+2026-11-20T17:44:41 | INFO |   citation histories: 1250/6000
+2026-11-20T17:44:41 | INFO |   citation histories: 1500/6000
+2026-11-20T17:44:42 | INFO |   citation histories: 1750/6000
+2026-11-20T17:44:42 | INFO |   citation histories: 2000/6000
+2026-11-20T17:44:42 | INFO |   citation histories: 2250/6000
+2026-11-20T17:44:42 | INFO |   citation histories: 2500/6000
+2026-11-20T17:44:43 | INFO |   citation histories: 2750/6000
+2026-11-20T17:44:43 | INFO |   citation histories: 3000/6000
+2026-11-20T17:44:43 | INFO |   citation histories: 3250/6000
+2026-11-20T17:44:43 | INFO |   citation histories: 3500/6000
+2026-11-20T17:44:43 | INFO |   citation histories: 3750/6000
+2026-11-20T17:44:43 | INFO |   citation histories: 4000/6000
+2026-11-20T17:44:43 | INFO |   citation histories: 4250/6000
+2026-11-20T17:44:44 | INFO |   citation histories: 4500/6000
+2026-11-20T17:44:44 | INFO |   citation histories: 4750/6000
+2026-11-20T17:44:44 | INFO |   citation histories: 5000/6000
+2026-11-20T17:44:44 | INFO |   citation histories: 5250/6000
+2026-11-20T17:44:44 | INFO |   citation histories: 5500/6000
+2026-11-20T17:44:44 | INFO |   citation histories: 5750/6000
+2026-11-20T17:44:44 | INFO | Eligible sleeping beauties: 660, selected: 100
+2026-11-20T17:44:44 | INFO | Split: 21 development, 79 confirmatory. This run processes the dev part only (21 items).
+2026-11-20T17:44:44 | INFO | [1/21] SB W4210785022 (1915, woke 2018, B=7570.5)
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2636.84it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-11-20T17:44:54 | INFO |    ranks: {'random': 260, 'bm25': 701, 'dense': 35, 'hybrid': 96, 'engine': 96}
+2026-11-20T17:44:54 | INFO | [2/21] SB W2320303480 (1973, woke 2018, B=3617.3)
+2026-11-20T17:44:55 | INFO |    ranks: {'random': 779, 'bm25': 365, 'dense': 93, 'hybrid': 160, 'engine': 160}
+2026-11-20T17:44:55 | INFO | [3/21] SB W2300474821 (1963, woke 2004, B=3575.2)
+2026-11-20T17:44:56 | INFO |    ranks: {'random': 437, 'bm25': 61, 'dense': 3, 'hybrid': 14, 'engine': 3}
+2026-11-20T17:44:56 | INFO | [4/21] SB W1973137999 (1920, woke 2006, B=2901.0)
+2026-11-20T17:44:56 | INFO |    ranks: {'random': 538, 'bm25': 11, 'dense': 11, 'hybrid': 9, 'engine': 7}
+2026-11-20T17:44:56 | INFO | [5/21] SB W2097680980 (1923, woke 1998, B=2152.4)
+2026-11-20T17:44:57 | INFO |    ranks: {'random': 762, 'bm25': 534, 'dense': 936, 'hybrid': 822, 'engine': 822}
+2026-11-20T17:44:57 | INFO | [6/21] SB W1980516134 (1954, woke 2007, B=2007.7)
+2026-11-20T17:44:58 | INFO |    ranks: {'random': 786, 'bm25': 355, 'dense': 75, 'hybrid': 127, 'engine': 127}
+2026-11-20T17:44:58 | INFO | [7/21] SB W2163272368 (1951, woke 2000, B=1664.8)
+2026-11-20T17:45:00 | INFO |    ranks: {'random': 479, 'bm25': 1, 'dense': 3, 'hybrid': 1, 'engine': 1}
+2026-11-20T17:45:00 | INFO | [8/21] SB W1567077956 (1961, woke 2009, B=1190.6)
+2026-11-20T17:45:01 | INFO |    ranks: {'random': 73, 'bm25': 27, 'dense': 13, 'hybrid': 5, 'engine': 4}
+2026-11-20T17:45:01 | INFO | [9/21] SB W2071736781 (1979, woke 2011, B=1184.8)
+2026-11-20T17:45:01 | INFO |    ranks: {'random': 338, 'bm25': 30, 'dense': 25, 'hybrid': 8, 'engine': 12}
+2026-11-20T17:45:01 | INFO | [10/21] SB W1992622896 (1913, woke 2003, B=1050.8)
+2026-11-20T17:45:02 | INFO |    ranks: {'random': 574, 'bm25': 562, 'dense': 674, 'hybrid': 729, 'engine': 729}
+2026-11-20T17:45:02 | INFO | [11/21] SB W2012721313 (1929, woke 2016, B=920.3)
+2026-11-20T17:45:03 | INFO |    ranks: {'random': 913, 'bm25': 20, 'dense': 6, 'hybrid': 4, 'engine': 1}
+2026-11-20T17:45:03 | INFO | [12/21] SB W2143370091 (1934, woke 2008, B=849.1)
+2026-11-20T17:45:04 | INFO |    ranks: {'random': 118, 'bm25': 61, 'dense': 330, 'hybrid': 112, 'engine': 112}
+2026-11-20T17:45:04 | INFO | [13/21] SB W1981366806 (1923, woke 1997, B=784.9)
+2026-11-20T17:45:05 | INFO |    ranks: {'random': 39, 'bm25': 154, 'dense': 316, 'hybrid': 233, 'engine': 233}
+2026-11-20T17:45:05 | INFO | [14/21] SB W1980250221 (1938, woke 1996, B=758.4)
+2026-11-20T17:45:06 | INFO |    ranks: {'random': 318, 'bm25': 41, 'dense': 1, 'hybrid': 4, 'engine': 3}
+2026-11-20T17:45:06 | INFO | [15/21] SB W2921739329 (1981, woke 2014, B=644.0)
+2026-11-20T17:45:06 | INFO |    ranks: {'random': 762, 'bm25': 157, 'dense': 13, 'hybrid': 23, 'engine': 25}
+2026-11-20T17:45:06 | INFO | [16/21] SB W2323413210 (1969, woke 2018, B=633.9)
+2026-11-20T17:45:07 | INFO |    ranks: {'random': 481, 'bm25': 146, 'dense': 124, 'hybrid': 116, 'engine': 116}
+2026-11-20T17:45:07 | INFO | [17/21] SB W1999060947 (1963, woke 2015, B=631.5)
+2026-11-20T17:45:08 | INFO |    ranks: {'random': 782, 'bm25': 2, 'dense': 1, 'hybrid': 1, 'engine': 1}
+2026-11-20T17:45:08 | INFO | [18/21] SB W1991976434 (1956, woke 2014, B=544.7)
+2026-11-20T17:45:09 | INFO |    ranks: {'random': 373, 'bm25': 819, 'dense': 124, 'hybrid': 284, 'engine': 284}
+2026-11-20T17:45:09 | INFO | [19/21] SB W2170842367 (1948, woke 2018, B=541.0)
+2026-11-20T17:45:10 | INFO |    ranks: {'random': 854, 'bm25': 2, 'dense': 1, 'hybrid': 1, 'engine': 1}
+2026-11-20T17:45:10 | INFO | [20/21] SB W2054232302 (1956, woke 2005, B=534.2)
+2026-11-20T17:45:11 | INFO |    ranks: {'random': 957, 'bm25': 22, 'dense': 257, 'hybrid': 45, 'engine': 12}
+2026-11-20T17:45:11 | INFO | [21/21] SB W2332131649 (1969, woke 2018, B=514.2)
+2026-11-20T17:45:12 | INFO |    ranks: {'random': 516, 'bm25': 901, 'dense': 16, 'hybrid': 69, 'engine': 69}
+2026-11-20T17:45:15 | INFO | Gate engine (engine): AUC 0.800, p 0.0001, n 21, identical share 0.88 -> passed
+2026-11-20T17:45:17 | INFO | Gate judge_gptoss120 (judge): AUC 0.800, p 0.0001, n 21, identical share 0.74 -> passed
+2026-11-20T17:45:19 | INFO | Gate judge_gptoss20 (judge): AUC 0.871, p 0.0001, n 21, identical share 0.79 -> passed
+2026-11-20T17:45:20 | INFO | Gate judge_allam (judge): AUC 0.656, p 0.0177, n 17, identical share 0.40 -> passed
+2026-11-20T17:45:20 | INFO | Forward test on 4 problems
+2026-11-20T17:45:20 | INFO | [1/4] DEV01: 495 retrieved, 357 forgotten, queries=['gastric spiral bacteria treatment', 'stomach bacteria bismuth', 'gastric infection non-antibiotic', 'bacteriocin gastric mucosa', 'bile salt Helicobacter', 'probiotic lactobacillus stomach', 'interferon gastric infection', 'antimicrobial peptides epithelium']
+2026-11-20T17:45:21 | INFO | [2/4] DEV02: 743 retrieved, 562 forgotten, queries=['typhoid carrier treatment', 'enteric fever chronic carriage', 'gallbladder bacteria elimination', 'Salmonella typhi chloramphenicol resistance', 'typhoid carrier state eradication', 'Salmonella typhi phage typing', 'typhoid fever vaccine efficacy', 'Salmonella typhi tetracycline sensitivity']
+2026-11-20T17:45:21 | INFO | [3/4] DEV03: 536 retrieved, 270 forgotten, queries=['mucoid Pseudomonas sputum', 'airway mucus bacteria penetration', 'alginate bacteria lung', 'Pseudomonas aeruginosa alginate production', 'cystic fibrosis sputum viscosity', 'bacteriophage therapy Pseudomonas', 'mucolytic enzymes sputum', 'Pseudomonas biofilm formation']
+2026-11-20T17:45:21 | INFO | [4/4] DEV04: 617 retrieved, 482 forgotten, queries=['livestock growth promotion without antibiotics', 'gut flora feed additive animals', 'competitive exclusion poultry', 'antibiotic growth promotion', 'colistin resistance swine', 'probiotics animal feed', 'phage therapy livestock', 'feed additives performance']
+2026-11-20T17:45:22 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 76s
+2026-11-20T17:46:38 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 241s
+2026-11-20T17:50:40 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 75s
+2026-11-20T17:51:55 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 112s
+2026-11-20T17:53:47 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 282s
+2026-11-20T17:58:30 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 375s
+2026-11-20T18:04:45 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 35s
+2026-11-20T18:05:21 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 6s
+2026-11-20T18:05:29 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 280s
+2026-11-20T18:10:10 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 187s
+2026-11-20T18:13:17 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 311s
+2026-11-20T18:18:29 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 187s
+2026-11-20T18:21:36 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 415s
+2026-11-20T18:28:32 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 230s
+2026-11-20T18:32:22 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 14s
+2026-11-20T18:32:39 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 337s
+2026-11-20T18:38:19 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 79s
+2026-11-20T18:39:38 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 231s
+2026-11-20T18:43:29 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 74s
+2026-11-20T18:44:46 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 134s
+2026-11-20T18:47:01 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 124s
+2026-11-20T18:49:05 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 18s
+2026-11-20T18:49:23 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 134s
+2026-11-20T18:51:43 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 187s
+2026-11-20T18:54:50 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 345s
+2026-11-20T19:00:38 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 401s
+2026-11-20T19:07:19 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 247s
+2026-11-20T19:11:27 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 308s
+2026-11-20T19:16:35 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 313s
+2026-11-20T19:21:48 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 177s
+2026-11-20T19:24:46 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 196s
+2026-11-20T19:28:02 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 314s
+2026-11-20T19:33:17 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 232s
+2026-11-20T19:37:09 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 274s
+2026-11-20T19:41:43 | WARNING | engine HTTP 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` i; retry in 181s

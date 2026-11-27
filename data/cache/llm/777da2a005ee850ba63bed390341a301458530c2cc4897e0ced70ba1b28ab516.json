@@ -1,0 +1,1 @@
+{"request_sha256": "777da2a005ee850ba63bed390341a301458530c2cc4897e0ced70ba1b28ab516", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-20T16:50:03Z", "response": "{\n\"score\": 0,\n\"reason\": \"The paper focuses on bone mineralization and vitamin D in cystic fibrosis, which is unrelated to clearing Pseudomonas aeruginosa from airway mucus.\"\n}"}

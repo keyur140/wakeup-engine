@@ -1,0 +1,1 @@
+{"request_sha256": "0f412eb58a74c7d987c51c4f620011e1654f14240295b16acd9cc4fa17c0b36d", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-20T15:56:48Z", "response": "{\"score\": 0, \"reason\": \"The candidate paper is a book review concerning American hero worship and has no relevance to traffic safety, road infrastructure, or epidemiological studies.\"}"}

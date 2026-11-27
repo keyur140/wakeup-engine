@@ -1,0 +1,28 @@
+world,property,expected,observed,as_expected
+W1,H1a beats chance,True,True,True
+W1,engine passes gate,True,True,True
+W1,judges passing gate,2 (the random one fails),2,True
+W1,forward testable,True,True,True
+W1,engine beats random picks (H2),either,False,True
+W1,big drop when disguised,False,False,True
+W1,recognition probe flags items,False,False,True
+W1,engine adds value over search,either,False,True
+W2,H1a beats chance,False,False,True
+W2,engine passes gate,False,False,True
+W2,judges passing gate,0,0,True
+W2,forward testable,False,False,True
+W2,engine beats random picks (H2),False,False,True
+W2,big drop when disguised,False,False,True
+W2,engine adds value over search,False,False,True
+W4,H1a beats chance,either,False,True
+W4,engine adds value over search,False,False,True
+W4,engine passes gate,either,False,True
+W3,H1a beats chance,True,True,True
+W3,engine passes gate,True,True,True
+W3,judges passing gate,3,3,True
+W3,forward testable,True,True,True
+W3,engine beats random picks (H2),either,False,True
+W3,big drop when disguised,True,True,True
+W3,recognition probe flags items,True,True,True
+W1-lock,confirm run touches only locked items,True,True,True
+W2 x seeds,H1a false-positive rate (unadjusted p < 0.05) over 40 null worlds,<= about 5%,1/40,True

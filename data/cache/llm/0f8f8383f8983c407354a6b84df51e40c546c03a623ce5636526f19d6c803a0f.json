@@ -1,0 +1,1 @@
+{"request_sha256": "0f8f8383f8983c407354a6b84df51e40c546c03a623ce5636526f19d6c803a0f", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-06T19:04:57Z", "response": "{\n\"recognized\": true,\n\"title\": \"THE TRANSFERENCE NUMBERS OF SODIUM AND POTASSIUM CHLORIDES AND OF THEIR MIXTURES\",\n\"first_author\": \"Dewey\",\n\"year\": 1925\n}"}

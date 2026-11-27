@@ -1,0 +1,1 @@
+{"request_sha256": "2efca3f944d95b8fb3b1784115848f86db5a3583ad4ca14f48019d288efcae3d", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-20T16:44:08Z", "response": "{\"score\": 0, \"reason\": \"The candidate paper discusses the discovery of insulin for diabetes treatment and is completely unrelated to H. pylori eradication or antibiotic resistance.\"}"}

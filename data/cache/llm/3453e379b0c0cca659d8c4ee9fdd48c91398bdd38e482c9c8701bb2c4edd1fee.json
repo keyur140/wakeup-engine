@@ -1,0 +1,1 @@
+{"request_sha256": "3453e379b0c0cca659d8c4ee9fdd48c91398bdd38e482c9c8701bb2c4edd1fee", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-11T22:32:38Z", "response": "{\n\"recognized\": true,\n\"title\": \"Youth: The Years from Ten to Sixteen\",\n\"first_author\": \"Hall\",\n\"year\": 1903\n}"}

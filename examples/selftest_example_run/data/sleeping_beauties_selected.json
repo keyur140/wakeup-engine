@@ -1,0 +1,322 @@
+[
+  {
+    "id": "W906244",
+    "split": "dev",
+    "year": 1929,
+    "B": 1488.4,
+    "awakening_year": 1977,
+    "sleep_years": 48
+  },
+  {
+    "id": "W902572",
+    "split": "dev",
+    "year": 1954,
+    "B": 1390.913,
+    "awakening_year": 2001,
+    "sleep_years": 47
+  },
+  {
+    "id": "W902878",
+    "split": "dev",
+    "year": 1959,
+    "B": 1364.211,
+    "awakening_year": 2005,
+    "sleep_years": 46
+  },
+  {
+    "id": "W902266",
+    "split": "dev",
+    "year": 1924,
+    "B": 1293.42,
+    "awakening_year": 1972,
+    "sleep_years": 48
+  },
+  {
+    "id": "W906703",
+    "split": "dev",
+    "year": 1921,
+    "B": 1221.627,
+    "awakening_year": 1964,
+    "sleep_years": 43
+  },
+  {
+    "id": "W905632",
+    "split": "confirm",
+    "year": 1909,
+    "B": 1187.304,
+    "awakening_year": 1955,
+    "sleep_years": 46
+  },
+  {
+    "id": "W905938",
+    "split": "confirm",
+    "year": 1944,
+    "B": 1167.008,
+    "awakening_year": 1985,
+    "sleep_years": 41
+  },
+  {
+    "id": "W905326",
+    "split": "confirm",
+    "year": 1950,
+    "B": 1166.251,
+    "awakening_year": 1991,
+    "sleep_years": 41
+  },
+  {
+    "id": "W903796",
+    "split": "confirm",
+    "year": 1925,
+    "B": 1034.793,
+    "awakening_year": 1967,
+    "sleep_years": 42
+  },
+  {
+    "id": "W903490",
+    "split": "confirm",
+    "year": 1926,
+    "B": 1021.218,
+    "awakening_year": 1973,
+    "sleep_years": 47
+  },
+  {
+    "id": "W904561",
+    "split": "confirm",
+    "year": 1921,
+    "B": 997.246,
+    "awakening_year": 1963,
+    "sleep_years": 42
+  },
+  {
+    "id": "W901654",
+    "split": "confirm",
+    "year": 1931,
+    "B": 991.419,
+    "awakening_year": 1979,
+    "sleep_years": 48
+  },
+  {
+    "id": "W905020",
+    "split": "dev",
+    "year": 1945,
+    "B": 978.779,
+    "awakening_year": 1985,
+    "sleep_years": 40
+  },
+  {
+    "id": "W907162",
+    "split": "dev",
+    "year": 1915,
+    "B": 961.897,
+    "awakening_year": 1960,
+    "sleep_years": 45
+  },
+  {
+    "id": "W905173",
+    "split": "confirm",
+    "year": 1939,
+    "B": 858.197,
+    "awakening_year": 1975,
+    "sleep_years": 36
+  },
+  {
+    "id": "W907315",
+    "split": "dev",
+    "year": 1950,
+    "B": 847.353,
+    "awakening_year": 1988,
+    "sleep_years": 38
+  },
+  {
+    "id": "W903949",
+    "split": "dev",
+    "year": 1913,
+    "B": 826.103,
+    "awakening_year": 1960,
+    "sleep_years": 47
+  },
+  {
+    "id": "W904867",
+    "split": "confirm",
+    "year": 1955,
+    "B": 745.593,
+    "awakening_year": 1989,
+    "sleep_years": 34
+  },
+  {
+    "id": "W902113",
+    "split": "confirm",
+    "year": 1939,
+    "B": 691.324,
+    "awakening_year": 1973,
+    "sleep_years": 34
+  },
+  {
+    "id": "W901807",
+    "split": "dev",
+    "year": 1940,
+    "B": 681.596,
+    "awakening_year": 1972,
+    "sleep_years": 32
+  },
+  {
+    "id": "W907009",
+    "split": "dev",
+    "year": 1919,
+    "B": 650.592,
+    "awakening_year": 1952,
+    "sleep_years": 33
+  },
+  {
+    "id": "W903643",
+    "split": "confirm",
+    "year": 1933,
+    "B": 598.651,
+    "awakening_year": 1969,
+    "sleep_years": 36
+  },
+  {
+    "id": "W907468",
+    "split": "dev",
+    "year": 1940,
+    "B": 598.122,
+    "awakening_year": 1967,
+    "sleep_years": 27
+  },
+  {
+    "id": "W906397",
+    "split": "confirm",
+    "year": 1916,
+    "B": 552.007,
+    "awakening_year": 1938,
+    "sleep_years": 22
+  },
+  {
+    "id": "W903031",
+    "split": "dev",
+    "year": 1937,
+    "B": 511.933,
+    "awakening_year": 1959,
+    "sleep_years": 22
+  },
+  {
+    "id": "W902419",
+    "split": "dev",
+    "year": 1957,
+    "B": 501.497,
+    "awakening_year": 1984,
+    "sleep_years": 27
+  },
+  {
+    "id": "W906550",
+    "split": "confirm",
+    "year": 1959,
+    "B": 462.67,
+    "awakening_year": 1985,
+    "sleep_years": 26
+  },
+  {
+    "id": "W904714",
+    "split": "dev",
+    "year": 1944,
+    "B": 453.591,
+    "awakening_year": 1974,
+    "sleep_years": 30
+  },
+  {
+    "id": "W903184",
+    "split": "confirm",
+    "year": 1956,
+    "B": 450.273,
+    "awakening_year": 1981,
+    "sleep_years": 25
+  },
+  {
+    "id": "W906856",
+    "split": "confirm",
+    "year": 1945,
+    "B": 422.406,
+    "awakening_year": 1967,
+    "sleep_years": 22
+  },
+  {
+    "id": "W904102",
+    "split": "dev",
+    "year": 1935,
+    "B": 420.767,
+    "awakening_year": 1955,
+    "sleep_years": 20
+  },
+  {
+    "id": "W905785",
+    "split": "dev",
+    "year": 1946,
+    "B": 392.688,
+    "awakening_year": 1965,
+    "sleep_years": 19
+  },
+  {
+    "id": "W904255",
+    "split": "dev",
+    "year": 1921,
+    "B": 349.89,
+    "awakening_year": 1989,
+    "sleep_years": 68
+  },
+  {
+    "id": "W906091",
+    "split": "confirm",
+    "year": 1908,
+    "B": 295.403,
+    "awakening_year": 1939,
+    "sleep_years": 31
+  },
+  {
+    "id": "W902725",
+    "split": "confirm",
+    "year": 1914,
+    "B": 290.927,
+    "awakening_year": 1955,
+    "sleep_years": 41
+  },
+  {
+    "id": "W904408",
+    "split": "confirm",
+    "year": 1936,
+    "B": 280.733,
+    "awakening_year": 1972,
+    "sleep_years": 36
+  },
+  {
+    "id": "W901501",
+    "split": "dev",
+    "year": 1913,
+    "B": 264.33,
+    "awakening_year": 1948,
+    "sleep_years": 35
+  },
+  {
+    "id": "W903337",
+    "split": "dev",
+    "year": 1956,
+    "B": 256.201,
+    "awakening_year": 1994,
+    "sleep_years": 38
+  },
+  {
+    "id": "W901960",
+    "split": "confirm",
+    "year": 1933,
+    "B": 238.963,
+    "awakening_year": 1966,
+    "sleep_years": 33
+  },
+  {
+    "id": "W905479",
+    "split": "dev",
+    "year": 1944,
+    "B": 224.399,
+    "awakening_year": 1979,
+    "sleep_years": 35
+  }
+]

@@ -1,0 +1,1 @@
+{"request_sha256": "8c819eceb99de9187b30629d541bcef0dd3eed2dfddd1f87ab7beb8b0090c858", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-05T19:20:57Z", "response": "{\n\"recognized\": true,\n\"title\": \"Alexander Pope: The Poetry of Allusion\",\n\"first_author\": \"Bloom\",\n\"year\": 1973\n}"}

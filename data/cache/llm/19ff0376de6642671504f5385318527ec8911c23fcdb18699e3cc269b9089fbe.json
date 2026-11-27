@@ -1,0 +1,1 @@
+{"request_sha256": "19ff0376de6642671504f5385318527ec8911c23fcdb18699e3cc269b9089fbe", "provider": "groq", "model": "qwen/qwen3.8-27b", "retrieved_utc": "2026-11-06T14:33:30Z", "response": "{\n\"recognized\": true,\n\"title\": \"Rounded Lakes and Lagoons of the Coastal Plains of Massachusetts\",\n\"first_author\": \"Bretz\",\n\"year\": 1923\n}"}

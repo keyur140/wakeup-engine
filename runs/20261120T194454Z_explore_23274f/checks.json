@@ -1,0 +1,68 @@
+[
+  {
+    "id": "C1",
+    "check": "Every AI reply matches its stored SHA-256",
+    "status": "pass",
+    "detail": "2583 replies, 0 mismatches"
+  },
+  {
+    "id": "C2",
+    "check": "Judges never see how an item was chosen",
+    "status": "pass",
+    "detail": "0 judge prompts mention a group label"
+  },
+  {
+    "id": "C3",
+    "check": "Ranks recomputed independently from saved scores",
+    "status": "pass",
+    "detail": "21 items recomputed, 0 mismatches"
+  },
+  {
+    "id": "C4",
+    "check": "Headline numbers recomputed from the ranks file",
+    "status": "pass",
+    "detail": "hits 8 vs 8, MRR 0.2540"
+  },
+  {
+    "id": "C5",
+    "check": "Main p-value recomputed by simulation",
+    "status": "pass",
+    "detail": "exact 1.812e-11, simulated 0"
+  },
+  {
+    "id": "C6",
+    "check": "Lock held: only dev items were processed",
+    "status": "pass",
+    "detail": "21 processed, 0 from the wrong part"
+  },
+  {
+    "id": "C7",
+    "check": "Need built only from the year before waking",
+    "status": "pass",
+    "detail": "21 needs; context year = waking year - 1; citing papers removed at build time"
+  },
+  {
+    "id": "C8",
+    "check": "Each candidate set has 1 target and no duplicates",
+    "status": "pass",
+    "detail": "0 problems"
+  },
+  {
+    "id": "C9",
+    "check": "Prompt leak scan found no clues",
+    "status": "pass",
+    "detail": "0 leaks"
+  },
+  {
+    "id": "C10",
+    "check": "Judge agreement recomputed with a second implementation",
+    "status": "pass",
+    "detail": "ours 0.5585959207250177, reference 0.558596"
+  },
+  {
+    "id": "C11",
+    "check": "Known-answer gate decisions follow the preregistered rule",
+    "status": "pass",
+    "detail": "4 of 4 models passed"
+  }
+]

@@ -1,0 +1,22 @@
+sb,usable,exclusion,sb_year,awakening_year,B,field,waking_topic,n_candidates,decoy_tier,rank_random,rank_bm25,rank_dense,rank_hybrid,rank_engine,rank_raw_bm25,rank_raw_dense,rank_raw_hybrid,engine_llm_score_target,embedding_backend,memorized
+W906244,True,,1929.0,1977.0,1488.4,B,mock topic,100.0,same_field_pm3,68.0,1.0,1.0,1.0,4.0,1.0,1.0,1.0,6.77,tfidf-fallback,False
+W902572,True,,1954.0,2001.0,1390.913,B,mock topic,100.0,same_field_pm3,55.0,1.0,1.0,1.0,3.0,1.0,1.0,1.0,6.42,tfidf-fallback,False
+W902878,True,,1959.0,2005.0,1364.211,A,mock topic,100.0,same_field_pm3,57.0,1.0,1.0,1.0,8.0,1.0,1.0,1.0,6.26,tfidf-fallback,False
+W902266,True,,1924.0,1972.0,1293.42,C,mock topic,100.0,same_field_pm3+same_field_pm6+any_field_pm3,76.0,8.0,8.0,8.0,14.0,8.0,8.0,8.0,6.3,tfidf-fallback,False
+W906703,True,,1921.0,1964.0,1221.627,B,mock topic,100.0,same_field_pm3+same_field_pm6,78.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,7.88,tfidf-fallback,False
+W905020,True,,1945.0,1985.0,978.779,C,mock topic,100.0,same_field_pm3+same_field_pm6,3.0,1.0,1.0,1.0,20.0,1.0,1.0,1.0,5.87,tfidf-fallback,False
+W907162,True,,1915.0,1960.0,961.897,B,mock topic,100.0,same_field_pm3+same_field_pm6+any_field_pm3,84.0,3.0,3.0,3.0,11.0,3.0,3.0,3.0,6.54,tfidf-fallback,False
+W907315,True,,1950.0,1988.0,847.353,C,mock topic,100.0,same_field_pm3,68.0,1.0,1.0,1.0,2.0,1.0,1.0,1.0,6.76,tfidf-fallback,False
+W903949,True,,1913.0,1960.0,826.103,B,mock topic,100.0,same_field_pm3+same_field_pm6+any_field_pm3,4.0,7.0,7.0,7.0,7.0,7.0,7.0,7.0,7.84,tfidf-fallback,False
+W901807,True,,1940.0,1972.0,681.596,C,mock topic,100.0,same_field_pm3+same_field_pm6+any_field_pm3,32.0,3.0,3.0,3.0,4.0,3.0,3.0,3.0,7.06,tfidf-fallback,False
+W907009,True,,1919.0,1952.0,650.592,A,mock topic,100.0,same_field_pm3+same_field_pm6+any_field_pm3,45.0,5.0,5.0,5.0,10.0,5.0,5.0,5.0,7.03,tfidf-fallback,False
+W907468,True,,1940.0,1967.0,598.122,A,mock topic,100.0,same_field_pm3,33.0,1.0,1.0,1.0,3.0,1.0,1.0,1.0,6.72,tfidf-fallback,False
+W903031,True,,1937.0,1959.0,511.933,B,mock topic,100.0,same_field_pm3,47.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,7.45,tfidf-fallback,False
+W902419,True,,1957.0,1984.0,501.497,A,mock topic,100.0,same_field_pm3,14.0,1.0,1.0,1.0,14.0,1.0,1.0,1.0,5.7,tfidf-fallback,False
+W904714,True,,1944.0,1974.0,453.591,A,mock topic,100.0,same_field_pm3,39.0,1.0,1.0,1.0,7.0,1.0,1.0,1.0,7.02,tfidf-fallback,False
+W904102,True,,1935.0,1955.0,420.767,C,mock topic,100.0,same_field_pm3+same_field_pm6+any_field_pm3,50.0,18.0,18.0,18.0,19.0,18.0,18.0,18.0,7.18,tfidf-fallback,False
+W905785,True,,1946.0,1965.0,392.688,B,mock topic,100.0,same_field_pm3,31.0,1.0,1.0,1.0,4.0,1.0,1.0,1.0,6.81,tfidf-fallback,False
+W904255,False,no_awakener_topic,,,,,,,,,,,,,,,,,,
+W901501,False,no_awakener_topic,,,,,,,,,,,,,,,,,,
+W903337,False,no_awakener_topic,,,,,,,,,,,,,,,,,,
+W905479,False,no_awakener_topic,,,,,,,,,,,,,,,,,,

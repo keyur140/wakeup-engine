@@ -1,0 +1,1 @@
+{"request_sha256": "9fdabe6e7068e67d248f32f3d3c2e65b7bfe376f7bc049b1d8b50b14df0be40e", "provider": "groq", "model": "openai/gpt-oss-120b", "retrieved_utc": "2026-11-05T21:32:51Z", "response": "{\n  \"error\": \"No abstract text was provided to rewrite. Please supply the abstract content you would like paraphrased.\"\n}"}
