@@ -18,3 +18,7 @@ keywords:
   - preregistration
   - antibiotic resistance
 notes: "Conducted independently; not an official Brunel University London project."
+identifiers:
+  - type: doi
+    value: "10.17605/OSF.IO/H948R"
+    description: "OSF preregistration of the study"
